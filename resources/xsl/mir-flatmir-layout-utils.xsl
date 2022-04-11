@@ -7,24 +7,36 @@
     exclude-result-prefixes="i18n mcrver mcrxsl">
 
   <xsl:import href="resource:xsl/layout/mir-common-layout.xsl" />
+  <xsl:param name="piwikID" select="'0'" />
 
   <xsl:template name="mir.navigation">
 
     <div id="header_box" class="clearfix container">
+
+      <a
+        id="project_logo_box"
+        class="hidden-xs"
+        href="http://www.tu-braunschweig.de"
+        title="{i18n:translate('digibib.goToMainSite')}">
+        <img
+          src="{$WebApplicationBaseURL}images/logo-fid-pharmazie-500.jpg"
+          alt="{i18n:translate('project.logoFidPharmazie')}" />
+      </a>
+
       <div id="options_nav_box" class="mir-prop-nav">
         <nav>
-          <ul class="navbar-nav ml-auto flex-row">
-            <xsl:call-template name="mir.loginMenu" />
+          <ul class="navbar-nav ml-auto flex-row flex-row-reverse">
             <xsl:call-template name="mir.languageMenu" />
+            <xsl:call-template name="mir.loginMenu" />
           </ul>
         </nav>
-      </div>
-      <div id="project_logo_box">
-        <a href="{concat($WebApplicationBaseURL,substring($loaded_navigation_xml/@hrefStartingPage,2),$HttpSession)}"
-           class="">
-          <span id="logo_mir">mir</span>
-          <span id="logo_modul">mycore</span>
-          <span id="logo_slogan">mods institutional repository</span>
+        <a id="ifis" href="xxx">
+          <img
+            src="{$WebApplicationBaseURL}images/logo-ifis-500.jpg" alt=""/>
+        </a>
+        <a id="ubbs" href="xxx">
+          <img
+            src="{$WebApplicationBaseURL}images/logo-ubbs-500.png" alt=""/>
         </a>
       </div>
     </div>
@@ -32,8 +44,8 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="mir-main-nav bg-primary">
       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
 
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
           <button
             class="navbar-toggler"
             type="button"
@@ -59,7 +71,7 @@
 
           <form
             action="{$WebApplicationBaseURL}servlets/solr/find"
-            class="searchfield_box form-inline my-2 my-lg-0"
+            class="bs-search form-inline searchfield_box"
             role="search">
             <input
               name="condQuery"
@@ -76,13 +88,17 @@
                 <input name="owner" type="hidden" value="createdby:{$CurrentUser}" />
               </xsl:when>
             </xsl:choose>
-            <button type="submit" class="btn btn-primary my-2 my-sm-0">
+            <button type="submit" class="btn btn-primary">
               <i class="fas fa-search"></i>
             </button>
           </form>
 
         </nav>
       </div>
+    </div>
+
+    <div id="digibib_feedback">
+      <a href="mailto:digibib@tu-braunschweig.de">Feedback</a>
     </div>
   </xsl:template>
 
@@ -101,9 +117,6 @@
         <div class="col-6 col-sm-3">
           <xsl:variable name="mcr_version" select="concat('MyCoRe ',mcrver:getCompleteVersion())" />
           <div id="powered_by">
-            <a id="dini_logo" href="https://www.dini.de/dienste-projekte/dini-zertifikat/" title="{i18n:translate('digibib.diniCertificate2016')}">
-              <img alt="Logo DINI-Zertifikat 2016" src="{$WebApplicationBaseURL}images/dini_zertifikat_2016.svg" height="50" />
-            </a>
             <a id="mycore_logo" href="http://www.mycore.de">
               <img src="{$WebApplicationBaseURL}mir-layout/images/mycore_logo_powered_120x30_blaue_schrift_frei.png" title="{$mcr_version}" alt="powered by MyCoRe" />
             </a>

@@ -6,7 +6,13 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
+  body.mir-start_page #page {
+    background-color: transparent;
+  }
 
+  body.mir-start_page #page h1 {
+    color: $danger;
+  }
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {

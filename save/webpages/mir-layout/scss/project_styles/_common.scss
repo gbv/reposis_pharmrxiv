@@ -9,8 +9,54 @@
 // no (xl) media query necessary (desktop first)
 
 
+  html body .jumbotron {
+    color: inherit;
+    background: none;
+    background-color: $gray-lighter;
+  }
 
-// Large devices (desktops) and below: <= 1200px
+  // classification Browser
+  .classificationBrowser {
+    width: 800px;
+  }
+
+  // viewer
+  .viewer .navbar.navbar-default, .mycoreViewer .navbar {
+    background-image: none;
+  }
+  .mycoreViewer .altoLine {
+    text-align: left;
+    line-height: initial;
+    font-family: sans-serif;
+  }
+  .mycoreViewer .navbar {
+    position: relative;
+    min-height: 60px;
+    padding: 0px;
+  }
+  /* TODO: check for better solution to hide search field box on modal citation box*/
+  .modal {
+    z-index: 2050;
+  }
+
+  // white background to get overlay working again
+  #mir-abstract-tabs {
+    .tab-content {
+      background-color: white;
+      padding-top: 0.5rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
+  .mir-abstract-overlay-tran {
+    left: 0;
+  }
+
+  .shariff .orientation-horizontal li {
+    margin-right: 3px;
+  }
+
+  // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
   // add/overwrite styles for responsive level lg and lower
 }

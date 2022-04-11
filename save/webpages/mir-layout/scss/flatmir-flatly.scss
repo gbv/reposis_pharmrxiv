@@ -12,7 +12,6 @@
 //  - but import the bootswatch modifications after the bootstrap settings
 
 @import "project_styles/_variables";                // project variables
-@import "flatmir/lib/variables";
 @import "common/variables";                         // mir variables
 @import  "../assets/bootswatch/flatly/variables";   // bootswatch variables
 
@@ -39,7 +38,12 @@
 @import "project_styles/_cards";      // card section and its content
 @import "project_styles/_lists";      // list settings
 @import "project_styles/_forms";      // form settings
+@import "project_styles/_searchfield";// searchbar settings
+@import "project_styles/_feedback";   // feedback button settings
+@import "project_styles/_cookiebar";  // cookiebar settings
 
 @import "project_styles/_common";     // stlyes without a own file
 
-@import "project_styles/_section-home";     // settings for homepage only
+@import "project_styles/_section-home";       // settings for homepage only
+@import "project_styles/_section-collection"; // settings for section collections
+@import "project_styles/_section-results";    // settings for the results list

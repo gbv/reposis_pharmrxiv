@@ -5,7 +5,7 @@
       <div class="row">
         <div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2" lang="de">
             <h1>pharmrxiv</h1>
-          <form action="../servlets/solr/find" id="bs-searchMainPage" class="form-inline mt-3" role="search">
+          <form action="../servlets/solr/find" id="project-searchMainPage" class="form-inline mt-3" role="search">
             <div class="input-group w-100">
               <input
                 name="condQuery"
@@ -42,7 +42,7 @@
       <div class="row">
         <div class="col-md-9 col-md-offset-2" lang="en">
           <h1>pharmrxiv</h1>
-          <form action="../servlets/solr/find" id="bs-searchMainPage" class="form-inline" role="search" style="margin-top:30px;">
+          <form action="../servlets/solr/find" id="project-searchMainPage" class="form-inline" role="search" style="margin-top:30px;">
             <div class="input-group" style="width: 100%;">
               <input name="condQuery" placeholder="Search in 16.000 documents" class="form-control search-query" id="bs-searchInput" type="text" />
               <div class="input-group-btn"><button type="submit" class="btn btn-primary"><i class="fas fa-search"></i></button></div>
