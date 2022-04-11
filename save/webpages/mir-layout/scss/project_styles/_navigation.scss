@@ -7,6 +7,21 @@
 // no (xl) media query necessary (desktop first)
 
 
+  // footer menu
+  .internal_links {
+    width: 100%;
+    li {
+      width: auto;
+      display: inline-block;
+      > a:hover,
+      > a:focus {
+        text-decoration: underline;
+        background-color: transparent;
+      }
+    }
+  }
+
+
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
   // add/overwrite styles for responsive level lg and lower

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MyCoReWebPage>
+    <section xml:lang="de" title="Historisches"><div>
+      <h2>Historisches</h2>
+      
+      <div class="row" id="topics">
+        <div class="col-md-10">
+          <p>Hier finden Sie eine Übersicht zu historischen Themen des FID Pharmazie:<br />
+            </p>
+          
+          <ul>
+            <li>Thema A</li>
+            <li>Thema B</li>
+            <li>Thema C</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section xml:lang="en" title="Historical Topics"><div>
+    <h2>Historical Topics</h2>
+      
+    <div class="row" id="topics">
+      <div class="col-md-10">
+        <p>Here you will find an overview of historical topics of the FID Pharmacy:<br />
+          </p>
+        
+        <ul>
+          <li>Topic A</li>
+          <li>Topic B</li>
+          <li>Topic C</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <meta></meta>
+</MyCoReWebPage>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MyCoReWebPage>
+    <section xml:lang="de" title="Konferenzen"><div>
+      <h2>Konferenzen</h2>
+      
+      <div class="row" id="conferences">
+        <div class="col-md-10">
+          <p>Hier finden Sie eine Übersicht der Konferenzen des FID Pharmazie:<br />
+            </p>
+          
+          <ul>
+            <li>Konferenz A</li>
+            <li>Konferenz B</li>
+            <li>Konferenz C</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section xml:lang="en" title="Conferences"><div>
+    <h2>Conferences</h2>
+      
+    <div class="row" id="conferences">
+      <div class="col-md-10">
+        <p>Here you will find an overview of the conferences of the FID Pharmacy:<br />
+          </p>
+        
+        <ul>
+          <li>Conference A</li>
+          <li>Conference B</li>
+          <li>Conference C</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <meta></meta>
+</MyCoReWebPage>

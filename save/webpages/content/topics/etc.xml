@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MyCoReWebPage>
+    <section xml:lang="de" title="ETC"><div>
+      <h2>Etc</h2>
+      
+      <div class="row" id="etc">
+        <div class="col-md-10">
+          <p>Hier finden Sie eine Übersicht zu etc:<br />
+            </p>
+          
+          <ul>
+            <li>Thema A</li>
+            <li>Thema B</li>
+            <li>Thema C</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section xml:lang="en" title="Etc"><div>
+    <h2>Etc</h2>
+      
+    <div class="row" id="etc">
+      <div class="col-md-10">
+        <p>Here you will find an overview of etc:<br />
+          </p>
+        
+        <ul>
+          <li>Topic A</li>
+          <li>Topic B</li>
+          <li>Topic C</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <meta></meta>
+</MyCoReWebPage>
