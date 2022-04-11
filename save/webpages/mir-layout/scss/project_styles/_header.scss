@@ -6,8 +6,40 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
-// logo and menu container
-
+  header {
+    background-color: rgb(255, 255, 255);
+  }
+  #header_box {
+    position: relative;
+  }
+  #project_logo_box {
+    float: none !important;
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+    z-index: 1000;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: white;
+    img {
+      width: 168px;
+    }
+  }
+  #bs-bibliothek {
+    color: $danger;
+    font-weight: bold;
+  }
+  #ifis {
+    img {
+      width: 200px;
+      margin-right: .5rem;
+    }
+  }
+  #ubbs {
+    img {
+      width: 200px;
+    }
+  }
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
@@ -27,4 +59,10 @@
 // Extra small devices (portrait phones): <= 576px
 @include media-breakpoint-down(xs) {
   // add/overwrite styles for responsive level xs
+  #project_logo_box {
+    position: relative;
+    left: auto;
+    bottom: auto;
+    z-index: 1000;
+  }
 }
