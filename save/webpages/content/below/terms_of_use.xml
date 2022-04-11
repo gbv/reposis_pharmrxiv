@@ -1,38 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MyCoReWebPage>
-    <section xml:lang="de" title="NUTZUNGSBEDINGUNGEN">
-        <div class="row">
-            <div class="col-md-12" lang="de">
-                <h1>Nutzungsbedingungen</h1>
-                <p>
-                    Informationen zur Nutzung.
-                </p>
-                <p>
-                    Weitere Erklärungen.
-                </p>
-                <h2>
-                    Überschrift 1
-                </h2>
-                <p>
-                    Hier kommt noch Text.
-                </p>
-                <h2>
-                    Überschrift 2
-                </h2>
-                <p>
-                    Hier kommt noch viel mehr Text.
-                    <ul>
-                        <li>...</li>
-                        <li>...</li>
-                        <li>...</li>
-                    </ul>
-                </p>
-            </div>
-        </div>
-    </section>
-    <section xml:lang="en" title="TERMS OF USE">
-    </section>
-    <meta>
-        <log lastEditor="administrator" date="2020-06-10" time="15:29"/>
-    </meta>
+<section xml:lang="de" title="Nutzungsbedingungen">
+  <h2>Nutzungsbedingungen für das Pharmrxiv</h2>
+ 
+  <div class="row">
+    <div class="col-md-12">
+
+<p>Die Digitalisate werden, sofern möglich, unter einer <a href="https://creativecommons.org/share-your-work/licensing-types-examples/licensing-examples" title="CC-Lizenz">CC-Lizenz</a> veröffentlicht. Die Metadaten aus der Digitalen Bibliothek Braunschweig werden unter der <a href="https://creativecommons.org/choose/zero/?lang=de">CC0-Lizenz</a> freigegeben.</p>
+Bitte geben Sie bei Nutzung die vollständige Quellenangabe an (siehe unten). Bitte schicken Sie uns bei der Verwendung auf Webseiten zur Information den Link auf die entsprechende Stelle per E-Mail. Wir würden uns freuen, wenn Sie uns bei der Verwendung in wissenschaftlichen Publikationen ein Belegexemplar der Publikation zusenden könnten.
+
+
+<h3>Quellenangabe:</h3>
+
+<p>Pharmrxiv + PURL (Persistent Uniform Resource Locator) des digitalen Objects</p>
+
+<p>Beispiele:<br />
+<em>Pharmrxiv, <a href="https://doi.org/10.24355/dbbs.084-201802231113">https://doi.org/10.24355/dbbs.084-201802231113</a> (DOI)<br />
+Pharmrxiv, <a href="http://nbn-resolving.de/urn:nbn:de:gbv:084-2017111012257">http://nbn-resolving.de/urn:nbn:de:gbv:084-2017111012257</a> (URN)</em></p>
+
+
+<h3>OAI-Schnittstelle zum Metadata Harvesting unter:</h3>
+
+<p><a href="../../servlets/OAIDataProvider">https://pharmrxiv.de/servlets/OAIDataProvider</a></p>
+
+    </div>
+  </div>
+
+</section>
+ 
+<section xml:lang="en" title="Terms of use">
+  
+  <h2>Pharmrxiv - Terms of Use</h2>
+ 
+   <div class="row">
+    <div class="col-md-12">
+
+<p>The digitised reproductions will be made available under <span style="font-size:14px;"><span style="font-family: arial, helvetica, sans-serif;"><a href="https://creativecommons.org/share-your-work/licensing-types-examples/licensing-examples">CC-license</a></span></span> if applicable. The meta data from Pharmrxiv will be released under the <span style="font-size:14px;"><span style="font-family: arial, helvetica, sans-serif;"><a href="https://creativecommons.org/choose/zero/?lang=en" target="_blank">CC0-license</a></span></span>.</p>
+In case of reproduction please cite the entire source reference (see below). Should any Pharmrxiv material be used on a website, please send us an e-mail containing a link to the corresponding page. We would appreciate being sent a copy of any academic publications in which Pharmrxiv material is included.
+
+
+<h3>Reference:</h3>
+
+<p>Pharmrxiv + PURL (Persistent Uniform Resource Locator) of the digital object</p>
+
+<p>Examples:<br />
+<em>Pharmrxiv, <a href="https://doi.org/10.24355/dbbs.084-201802231113">https://doi.org/10.24355/dbbs.084-201802231113</a> (DOI)<br />
+Pharmrxiv, <a href="http://nbn-resolving.de/urn:nbn:de:gbv:084-2017111012257">http://nbn-resolving.de/urn:nbn:de:gbv:084-2017111012257</a></em><em> (URN)</em></p>
+
+
+<h3>OAI Interface for Metadata Harvesting:</h3>
+
+<p><a href="../../servlets/OAIDataProvider">https://pharmrxiv.de/servlets/OAIDataProvider</a></p>
+
+    </div>
+   </div>
+
+</section>
+ 
+ <meta></meta>
 </MyCoReWebPage>
