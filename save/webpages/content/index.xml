@@ -5,7 +5,9 @@
       <div class="row">
         <div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2" lang="de">
           <h1>
-            pharmrxiv
+            <span class="project-name">
+              pharm<span class="project-name__strong">R</span>&#967;iv
+            </span>
           </h1>
           <form action="../servlets/solr/find" id="project-searchMainPage" class="form-inline mt-3" role="search">
             <div class="input-group w-100">
@@ -13,12 +15,12 @@
                 name="condQuery"
                 placeholder="Suche in 16.000 Dokumenten"
                 class="form-control search-query"
-                id="bs-searchInput"
+                id="project-searchInput"
                 type="text"
                 aria-label=""
                 aria-describedby="" />
               <div class="input-group-append">
-                <button type="submit" class="btn btn-primary"><i class="fas fa-search"></i></button>
+                <button type="submit" class="btn text-primary bg-white"><i class="fas fa-search"></i></button>
               </div>
             </div>
           </form>
@@ -33,7 +35,7 @@
           url: "../api/v1/search?q=objectType:mods AND state:published&amp;rows=0&amp;wt=json&amp;json.wrf=?",
           dataType: "jsonp",
           success: function (data) {
-            $('#bs-searchInput').attr('placeholder', 'Suche in ' + $.number(data.response.numFound,0, ',', '.') + ' Dokumenten');
+            $('#project-searchInput').attr('placeholder', 'Suche in ' + $.number(data.response.numFound,0, ',', '.') + ' Dokumenten');
           },
         });
       });
@@ -49,7 +51,7 @@
           </h1>
           <form action="../servlets/solr/find" id="project-searchMainPage" class="form-inline" role="search" style="margin-top:30px;">
             <div class="input-group" style="width: 100%;">
-              <input name="condQuery" placeholder="Search in 16.000 documents" class="form-control search-query" id="bs-searchInput" type="text" />
+              <input name="condQuery" placeholder="Search in 16.000 documents" class="form-control search-query" id="project-searchInput" type="text" />
               <div class="input-group-btn"><button type="submit" class="btn btn-primary"><i class="fas fa-search"></i></button></div>
             </div>
           </form>
@@ -64,7 +66,7 @@
       url: "../api/v1/search?q=objectType:mods AND state:published&amp;rows=0&amp;wt=json&amp;json.wrf=?",
       dataType: "jsonp",
       success: function (data) {
-      $('#bs-searchInput').attr('placeholder', 'Search in ' + $.number(data.response.numFound,0, ',', '.') + ' documents');
+      $('#project-searchInput').attr('placeholder', 'Search in ' + $.number(data.response.numFound,0, ',', '.') + ' documents');
       },
       });
       });

@@ -8,13 +8,19 @@
 
   // options menu
   .mir-prop-nav {
+    text-align: right;
+    nav {
+      margin-bottom: 2rem;
+    }
     // inverted flex order!
     // means: all but the first
     .nav-item:not(:last-child) {
       margin-left: 15px;
     }
   }
-
+  .mir-prop-nav .navbar-nav > li > a {
+    color: $link-color;
+  }
   // main menu
   .mir-main-nav {
     .container {
@@ -22,35 +28,35 @@
     }
     .navbar {
       padding: 0;
+      margin-left: -15px;
     }
     .navbar-nav {
-      padding-left: 200px;
     }
     .nav-link {
+      font-size: 1.125rem;
       border-left: 1px solid #fff;
-      padding: 0px 1em;
-      line-height: 2em;
+      padding: 0.5rem 1rem;
       border-top: 1px solid transparent;
       // active nav link (no dropdown)
       &.active {
-        background-color: $danger;
+        background-color: $pharmGreen;
       }
       &:hover,
       &:focus,
       &:active {
-        color: $danger !important;
+        color: $pharmGreen !important;
         background-color: white;
       }
     }
     .dropdown-menu {
-      background-color: $danger;
+      background-color: $pharmGreen;
     }
     .dropdown-item {
       color: white;
       &:hover,
       &:focus,
       &:active {
-        color: $danger;
+        color: $pharmGreen;
         background-color: white;
       }
     }
@@ -58,10 +64,10 @@
     .active {
       .nav-link {
         color: white !important;
-        background-color: $danger;
+        background-color: $pharmGreen;
       }
       > .dropdown-item {
-        background-color: #35c7ff;
+        background-color:$pharmGreen;
         &:hover,
         &:focus,
         &:active {
@@ -73,7 +79,7 @@
   // overwrite bs settings
   .mir-main-nav.bg-primary .navbar-nav .active > .nav-link {
     color: white !important;
-    background-color: $danger;
+    background-color: $pharmGreen;
   }
   .mir-main-nav .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 1rem;
@@ -125,7 +131,6 @@
       order: 4;
     }
     .navbar-toggler {
-      margin-left: 200px;
     }
     .bs-search {
       margin-left: auto;
