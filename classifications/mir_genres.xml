@@ -8,7 +8,7 @@
       <label xml:lang="x-mapping" text="marcgt:article diniPublType:article" />
       <label xml:lang="en" text="Article / Essay" />
       <label xml:lang="de" text="Artikel / Aufsatz" />
-      <label xml:lang="x-hosts" text="journal newspaper collection festschrift proceedings standalone" />
+      <label xml:lang="x-hosts" text="journal collection proceedings standalone" />
     </category>
     <category ID="thesis">
       <label xml:lang="en" text="Thesis" />
