@@ -16,7 +16,7 @@
       <a
         id="project_logo_box"
         class="hidden-xs"
-        href="http://www.tu-braunschweig.de"
+        href="https://www.tu-braunschweig.de/ub/fachinformationsdienst-pharmazie"
         title="{i18n:translate('digibib.goToMainSite')}">
         <img
           src="{$WebApplicationBaseURL}images/logo-fid-pharmazie-500.jpg"
@@ -30,13 +30,11 @@
             <xsl:call-template name="mir.loginMenu" />
           </ul>
         </nav>
-        <a id="ifis" href="xxx">
-          <img
-            src="{$WebApplicationBaseURL}images/logo-ifis-500.jpg" alt=""/>
+        <a id="ifis" href="http://www.ifis.cs.tu-bs.de/">
+          <span>ifis</span> | Institut für Informationssysteme
         </a>
-        <a id="ubbs" href="xxx">
-          <img
-            src="{$WebApplicationBaseURL}images/logo-ubbs-500.png" alt=""/>
+        <a id="ubbs" href="http://www.ub.tu-braunschweig.de/">
+          Universitätsbibliothek Braunschweig
         </a>
       </div>
     </div>

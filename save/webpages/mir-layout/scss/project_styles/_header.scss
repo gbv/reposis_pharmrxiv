@@ -8,38 +8,39 @@
 
   header {
     background-color: rgb(255, 255, 255);
-  }
-  #header_box {
     position: relative;
   }
+  #header_box {
+    padding-left: 0;
+    padding-right: 0;
+  }
   #project_logo_box {
-    float: none !important;
-    position: absolute;
-    left: 0;
-    bottom: -40px;
-    z-index: 1000;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding: 15px;
     background-color: white;
     img {
-      width: 168px;
+      width: 250px;
     }
   }
   #bs-bibliothek {
     color: $danger;
     font-weight: bold;
   }
+  #ubbs,
   #ifis {
-    img {
-      width: 200px;
-      margin-right: .5rem;
+    display: block;
+    font-size: 1.125rem;
+  }
+  #ifis {
+    color: $text-color;
+    span {
+      color: #006093;
     }
+    margin-bottom: .5rem;
   }
   #ubbs {
-    img {
-      width: 200px;
-    }
+    color: $bRed;
   }
+
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {

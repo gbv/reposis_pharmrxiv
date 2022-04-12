@@ -11,7 +11,7 @@ $assetPathRoot : "../../../../";
 $web-font-path: "https://webfonts.gbv.de/css?family=Lato:400,700,400italic";
 $text-color: #333333;
 $font-family-sans-serif: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-size-base: 0.9375rem;
+$font-size-base: 1rem;
 $h1-font-size: 2.25rem;
 $h2-font-size: 2rem;
 $h3-font-size: 1.5rem;
@@ -27,11 +27,18 @@ $padding-small-horizontal: 9px;
 
 // Brand colors
 // -------------------------
-$primary: rgb(14, 118, 175);
-$success: #6eba6b;
-$info: #4b8fbb;
-$warning: #f39c12;
-$danger: #be1e3c;
+$fidBlue:         rgb(14, 118, 175);
+$bRed:            #be1e3c;
+$pharmGreen:      #99c13c;
+$pharmGreenLight: #c1d631;
+$pharmOrange:     #f39c12;
+$pharmBlue:       #4b8fbb;
+
+$primary: $fidBlue;
+$success: $pharmGreen;
+$info: $pharmBlue;
+$warning: $pharmOrange;
+$danger: $bRed;
 
 $brand-primary: $primary;
 $brand-success: $success;
