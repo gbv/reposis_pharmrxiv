@@ -18,7 +18,7 @@
           Zentraler Dienst ist die wirkstoffzentrierte Suchmaschine PubPharm.
         </p>
         <p>     
-          Weitere Informationen zum <a href="https://www.tu-braunschweig.de/ub/fachinformationsdienst-pharmazie">FID Pharmazie.</a>
+          Weitere Informationen zum <a href="https://www.tu-braunschweig.de/ub/fachinformationsdienst-pharmazie" target="_blank">FID Pharmazie.</a>
         </p>
         
         <h1>Kontaktformular</h1>
@@ -78,7 +78,7 @@
             <div class="ml-3">
               *
               <input type="checkbox" value="true" required="required" />
-              Ich habe die <a href="https://www.tu-braunschweig.de/datenschutzerklaerung">Datenschutzerklärung</a> gelesen und erkenne sie an.
+              Ich habe die <a href="https://www.tu-braunschweig.de/datenschutzerklaerung" target="_blank">Datenschutzerklärung</a> gelesen und erkenne sie an.
             </div>
           </div>
         </xed:bind>
@@ -187,7 +187,7 @@
             <div class="ml-3">
               *
               <input type="checkbox" value="true" required="required" />
-              I have read and accept the <a href="https://www.tu-braunschweig.de/en/data-protection-declaration">privacy policy</a>.
+              I have read and accept the <a href="https://www.tu-braunschweig.de/en/data-protection-declaration" target="_blank">privacy policy</a>.
             </div>
           </div>
         </xed:bind>
