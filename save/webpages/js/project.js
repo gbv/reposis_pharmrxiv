@@ -9,6 +9,19 @@ $(document).ready(function() {
       $(this).remove();
   });
 
+  $.cookieBar({
+    fixed: true,
+    message: 'Auf den Seiten von Pharmrxiv werden zur Erhöhung des Bedienungskomforts Cookies verwendet. Mit der Nutzung dieser Seiten erklären Sie, dass Sie die rechtlichen Hinweise gelesen haben und akzeptieren.',
+    acceptText: 'Akzeptieren',
+    policyButton: true,
+    policyText: 'Hinweise zum Datenschutz',
+    policyURL: 'https://www.tu-braunschweig.de/datenschutzerklaerung',
+    expireDays: 1,
+    zindex: '356',
+    domain: 'pharmrxiv.de',
+    referrer: 'pharmrxiv.de'
+  });
+
   // activate empty search on start page
   $("#project-searchMainPage").submit(function (evt) {
     $(this).find(":input").filter(function () {

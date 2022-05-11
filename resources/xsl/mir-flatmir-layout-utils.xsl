@@ -151,7 +151,7 @@
   </xsl:template>
 
   <xsl:template name="mir.powered_by">
-    <!-- do nothing special -->
+    <script type="text/javascript" src="{$WebApplicationBaseURL}js/jquery.cookiebar.js"></script>
   </xsl:template>
 
 </xsl:stylesheet>
