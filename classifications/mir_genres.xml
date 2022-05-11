@@ -73,9 +73,15 @@
     </category>
     <category ID="journal">
       <label xml:lang="x-hosts" text="standalone" />
+      <label xml:lang="de" text="Zeitschrift" />
       <label xml:lang="en" text="Journal" />
       <label xml:lang="x-mapping" text="marcgt:journal diniPublType:Periodical" />
+    </category>  
+    <category ID="issue">
+      <label xml:lang="x-hosts" text="standalone" />
+      <label xml:lang="en" text="Issue" />
       <label xml:lang="de" text="Zeitschriftenheft" />
+      <label xml:lang="x-mapping" text="marcgt:issue diniPublType:PeriodicalPart" />
     </category>
     <category ID="speech">
       <label xml:lang="en" text="Speech" />
