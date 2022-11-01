@@ -21,14 +21,17 @@
   <section title="Publizieren" xml:lang="de">
     <form id="submit_publication" class="form-horizontal" role="form" method="get" action="../../editor/editor-dynamic.xed">
       
-      <h2>Veröffentlichen</h2>
-      
-      <h3>Publikationstyp auswählen</h3>
+      <h2>Publizieren</h2>
       
       <div class="row">
         <div class="col-sm-12 col-md-8">
           <p>
-            Zur Erfassung der bibliographischen Daten wählen Sie bitte den Typ der Publikation aus.
+            Zur Veröffentlichung Ihres Beitrags auf <span>pharm<span class="project-name__strong">R</span>χiv</span> ist zunächst die Erfassung 
+            seiner bibliographischen Daten erforderlich. Dazu kombinieren Sie bitte aus dem zweiteiligen Auswahlmenu – so im konkreten Fall überhaupt
+            erforderlich – die dem Typus Ihrer Publikation entsprechende Erfassungsmaske. Bitte beachten Sie, dass alle mit einen Asterisk * gekennzeichneten
+            Felder der jeweils gewählten Erfassungsmaske verpflichtend zu befüllen sind. Für jede angemeldete Veröffentlichung übersenden Sie bitte ergänzend 
+            einen vollständig ausgefüllten und mit Ihrer elektronischen Unterschrift versehenes <a href="../rights/Antragsformular.pdf">Antragsformular</a> an:
+            <span class="madress">pharmrxiv [at] tu-braunschweig.de</span>
           </p>
         </div>
       </div>
@@ -92,17 +95,21 @@
       
       <h2>Publish</h2>
       
-      <h3>Select publication type</h3>
       <div class="row">
         <div class="col-sm-12 col-md-8">
           <p>
-            To enter the bibliographic data, please select the type of your publication.
+            To publish your contribution on <span>pharm<span class="project-name__strong">R</span>χiv</span>, the recording is first
+            of its bibliographical data required. To do this, please combine from the two -part selection menu - in the specific case at all
+            required - the detection mask corresponding to the type of your publication.Please note that all marked with an asterisk *
+            Fields of the selected detection mask are mandatory. Please send for each registered publication in addition
+            a fully completed and with its electronic signature <a href="../rights/Antragsformular.pdf">Application form</a> to:
+            <span class="madress"> pharmrxiv [at] tu-braunschweig.de</span>
           </p>
         </div>
       </div>
       
       <div class="row form-group">
-        <div class="col-sm-7 col-md-5 ">
+        <div class="col-sm-7 col-md-5 col-lg-4">
           <select id="genre" class="form-control" name="genre" size="1"></select>
         </div>
       </div>

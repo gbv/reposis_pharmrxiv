@@ -91,7 +91,7 @@
       <label xml:lang="de">etc</label>
       <label xml:lang="en">etc</label>
     </item>
-  </menu>
+  </menu>,,
   <menu id="publish" dir="/content/publish">
     <label xml:lang="de">Publizieren</label>
     <label xml:lang="en">Publish</label>
@@ -102,10 +102,6 @@
     <item href="/content/publish/index.xml" type="intern" replaceMenu="false" constrainPopUp="false">
       <label xml:lang="de">Dokument einreichen</label>
       <label xml:lang="en">Submit new document</label>
-    </item>
-    <item href="/content/publish/importPPN.xml" type="intern" replaceMenu="false" constrainPopUp="false">
-      <label xml:lang="de">Dokument importieren (PPN)</label>
-      <label xml:lang="en">Import new document (PPN)</label>
     </item>
     <item href="/editor/editor-admins.xed" type="intern" replaceMenu="false" constrainPopUp="false">
       <label xml:lang="de">Dokument einreichen (Admin)</label>
