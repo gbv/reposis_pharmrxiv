@@ -71,9 +71,6 @@
             <option value="isbn">ISBN</option>
             <option value="ppn">K10plus-PPN</option>
             <option value="scopus">Scopus-ID</option>
-            <option value="ieee">IEEE-ID</option>
-            <option value="issn">ISSN</option>
-            <option value="zdbid">ZDB-ID</option>
           </select>
         </div>
         <div class="col-md-5 col-lg-4 mb-1 pl-0">
@@ -142,9 +139,6 @@
             <option value="isbn">ISBN</option>
             <option value="ppn">K10plus-PPN</option>
             <option value="scopus">Scopus-ID</option>
-            <option value="ieee">IEEE-ID</option>
-            <option value="issn">ISSN</option>
-            <option value="zdbid">ZDB-ID</option>
           </select>
         </div>
         <div class="col-md-5 col-lg-4 mb-1 pr-0">
