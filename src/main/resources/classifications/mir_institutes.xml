@@ -3,7 +3,7 @@
   xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="mir_institutes">
   <label xml:lang="en" text="Institutions" description="A list of institutions" />
   <label xml:lang="de" text="Einrichtungen" description="Liste der Einrichtungen" />
-  <label xml:lang="x-uri" text="https://www.pharmrxiv.de/classifications/mir_institutes" />
+  <label xml:lang="x-uri" text="https://pharmrxiv.de/rsc/classifications/export/mir_institutes" />
   <categories>
     <category ID="Uni">
       <label xml:lang="de" text="Universität / Hochschule" />
