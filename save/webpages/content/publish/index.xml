@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<MyCoReWebPage>
-  <section xml:lang="all">
-    <script src='../../js/mir/select-doctype.min.js' />
-    <script>
+<MyCoReWebPage><section xml:lang="all"><div><script src="../../js/mir/select-doctype.min.js" /><script>
       <!-- Show info box -->
       $(document).ready(function() {
       $('body').addClass('publish-import-popover-box');
@@ -16,142 +12,67 @@
       }
       });
       });
-    </script>
-  </section>
-  <section title="Publizieren" xml:lang="de">
-    <form id="submit_publication" class="form-horizontal" role="form" method="get" action="../../editor/editor-dynamic.xed">
-      
-      <h2>Publizieren</h2>
-      
-      <div class="row">
-        <div class="col-sm-12 col-md-8">
-          <p>
-            Zur Veröffentlichung Ihres Beitrags auf <span>pharm<span class="project-name__strong">R</span>χiv</span> ist zunächst die Erfassung 
-            seiner bibliographischen Daten erforderlich. Dazu kombinieren Sie bitte aus dem zweiteiligen Auswahlmenu – so im konkreten Fall überhaupt
-            erforderlich – die dem Typus Ihrer Publikation entsprechende Erfassungsmaske. Bitte beachten Sie, dass alle mit einen Asterisk * gekennzeichneten
-            Felder der jeweils gewählten Erfassungsmaske verpflichtend zu befüllen sind. Für jede angemeldete Veröffentlichung übersenden Sie bitte ergänzend 
-            einen vollständig ausgefüllten und mit Ihrer elektronischen Unterschrift versehenes <a href="../rights/Antragsformular.pdf">Antragsformular</a> an:
-            <span class="madress">pharmrxiv [at] tu-braunschweig.de</span>
-          </p>
-        </div>
-      </div>
-      
-      <div class="row form-group">
-        <div class="col-sm-7 col-md-5 col-lg-4">
-          <select id="genre" class="form-control" name="genre" size="1"></select>
-        </div>
-      </div>
-      
-      <div class="row form-group">
-        <div class="col-sm-7 col-md-5 col-lg-4 mb-4">
-          <select id="host" class="form-control" name="host" size="1"></select>
-        </div>
-      </div>
-      
-      <h3>Metadaten aus anderen Datenquellen importieren</h3>
-      
-      <div class="row">
-        <div class="col-sm-12 col-md-8">
-          <p>
-            Mit der Angabe eines Identifikator besteht die Möglichkeit, die bibliographischen Angaben der Publikation aus den Datenbanken
-            <a href="https://rzblx10.uni-regensburg.de/dbinfo/detail.php?titel_id=3636" title="https://rzblx10.uni-regensburg.de/dbinfo/detail.php?titel_id=3636">Scopus</a>,
-            <a href="https://crossref.org/" title="https://crossref.org/">Crossref</a> und
-            <a href="https://ieeexplore.ieee.org/" title="https://ieeexplore.ieee.org/">IEEE Xplore</a> sowie
-            <a href="https://opac.k10plus.de/" title="https://opac.k10plus.de/">K10plus</a> und
-            <a href="https://zdb-katalog.de/" title="https://zdb-katalog.de/">ZDB</a>
-            in das betreffende Erfassungsformular zu importieren. Hierzu wählen Sie zunächst bitte den betreffenden Identifikator aus und geben diesen ein.
-          </p>
-        </div>
-      </div>
-      
-      <div class="row form-group">
-        <div class="col-sm-3 col-lg-2 control-label mb-1 pr-0">
-          <select name="type" class="form-control form-control-inline">
-            <option value="">(bitte ggf. wählen)</option>
-            <option value="doi">DOI</option>
-            <option value="isbn">ISBN</option>
-            <option value="ppn">K10plus-PPN</option>
-          </select>
-        </div>
-        <div class="col-md-5 col-lg-4 mb-1 pl-0">
-          <input class="form-control" type="text" name="modsId" />
-        </div>
-      </div>
-      
-      <div class="row form-group mt-4">
-        <div class="col-sm-3 col-md-4">
-          <button type="submit" class="btn btn-primary">Weiter</button>
-        </div>
-      </div>
-      
-    </form>
-  </section>
-  
-  <section title="Publish" xml:lang="en">
-    <form id="submit_publication" class="form-horizontal" role="form" method="get" action="../../editor/editor-dynamic.xed">
-      
-      <h2>Publish</h2>
-      
-      <div class="row">
-        <div class="col-sm-12 col-md-8">
-          <p>
-            To publish your contribution on <span>pharm<span class="project-name__strong">R</span>χiv</span>, the recording is first
-            of its bibliographical data required. To do this, please combine from the two -part selection menu - in the specific case at all
-            required - the detection mask corresponding to the type of your publication.Please note that all marked with an asterisk *
-            Fields of the selected detection mask are mandatory. Please send for each registered publication in addition
-            a fully completed and with its electronic signature <a href="../rights/Antragsformular.pdf">Application form</a> to:
-            <span class="madress"> pharmrxiv [at] tu-braunschweig.de</span>
-          </p>
-        </div>
-      </div>
-      
-      <div class="row form-group">
-        <div class="col-sm-7 col-md-5 col-lg-4">
-          <select id="genre" class="form-control" name="genre" size="1"></select>
-        </div>
-      </div>
-      
-      <div class="row form-group">
-        <div class="col-sm-7 col-md-5 col-lg-4 mb-4">
-          <select id="host" class="form-control" name="host" size="1"></select>
-        </div>
-      </div>
-      
-      <h3 >Import metadata from othe data sources</h3>
-      <div class="row">
-        <div class="col-sm-12 col-md-8">
-          <p>
-            It is possible to import the bibliographic data of the publikaction from the databases
-            <a href="https://rzblx10.uni-regensburg.de/dbinfo/detail.php?titel_id=3636" title="https://rzblx10.uni-regensburg.de/dbinfo/detail.php?titel_id=3636">Scopus</a>,
-            <a href="https://crossref.org/" title="https://crossref.org/">Crossref</a> and
-            <a href="https://ieeexplore.ieee.org/" title="https://ieeexplore.ieee.org/">IEEE Xplore</a> as well as
-            <a href="https://opac.k10plus.de/" title="https://opac.k10plus.de/">K10plus</a> and
-            <a href="https://zdb-katalog.de/" title="https://zdb-katalog.de/">ZDB</a> into the relevant entry form.
-            To do this, please first select the relevant identifier of your contribution and enter it.
-          </p>
-        </div>
-      </div>
-      
-      <div class="row form-group">
-        <div class="col-sm-3 col-lg-2 control-label mb-1">
-          <select name="type" class="form-control form-control-inline">
-            <option value="">(please select)</option>
-            <option value="doi">DOI</option>
-            <option value="isbn">ISBN</option>
-            <option value="ppn">K10plus-PPN</option>
+    </script></div>
+</section><section xml:lang="de" title="Publizieren"><form action="../../editor/editor-dynamic.xed" class="form-horizontal" id="submit_publication" method="get" role="form">
+<h2>Publizieren</h2>
 
-          </select>
-        </div>
-        <div class="col-md-5 col-lg-4 mb-1 pr-0">
-          <input class="form-control" type="text" name="modsId" />
-        </div>
-      </div>
-      <div class="row form-group mt-4 pl-0">
-        <div class="col-sm-3 col-md-4">
-          <button type="submit" class="btn btn-primary">Next</button>
-        </div>
-      </div>
-    </form>
-  </section>
-  
-</MyCoReWebPage>
+<div class="row">
+<div class="col-sm-12 col-md-8">
+<p>Zur Veröffentlichung Ihres Beitrags auf <span>pharm<span class="project-name__strong">R</span>χiv</span> ist zunächst die Erfassung seiner bibliographischen Daten erforderlich. Dazu kombinieren Sie bitte aus dem zweiteiligen Auswahlmenu – so im konkreten Fall überhaupt erforderlich – die dem Typus Ihrer Publikation entsprechende Erfassungsmaske. Bitte beachten Sie, dass alle mit einen Asterisk * gekennzeichneten Felder der jeweils gewählten Erfassungsmaske verpflichtend zu befüllen sind. Für jede angemeldete Veröffentlichung übersenden Sie bitte ergänzend einen vollständig ausgefüllten und mit Ihrer elektronischen Unterschrift versehenes <a href="/content/publish/Antragsformular_Pharmrxiv_Single_de.pdf">Antragsformular</a> an: <span class="madress">pharmrxiv [at] tu-braunschweig.de</span></p>
+</div>
+</div>
+
+<div class="row form-group">
+<div class="col-sm-7 col-md-5 col-lg-4"><select class="form-control" id="genre" name="genre" size="1"> </select></div>
+</div>
+
+<h3>Metadaten aus anderen Datenquellen importieren</h3>
+
+<div class="row">
+<div class="col-sm-12 col-md-8">
+<p>Mit der Angabe eines Identifikator besteht die Möglichkeit, die bibliographischen Angaben der Publikation aus den Datenbanken <a href="https://rzblx10.uni-regensburg.de/dbinfo/detail.php?titel_id=3636" title="https://rzblx10.uni-regensburg.de/dbinfo/detail.php?titel_id=3636">Scopus</a>, <a href="https://crossref.org/" title="https://crossref.org/">Crossref</a> und <a href="https://ieeexplore.ieee.org/" title="https://ieeexplore.ieee.org/">IEEE Xplore</a> sowie <a href="https://opac.k10plus.de/" title="https://opac.k10plus.de/">K10plus</a> und <a href="https://zdb-katalog.de/" title="https://zdb-katalog.de/">ZDB</a> in das betreffende Erfassungsformular zu importieren. Hierzu wählen Sie zunächst bitte den betreffenden Identifikator aus und geben diesen ein.</p>
+</div>
+</div>
+
+<div class="row form-group">
+<div class="col-sm-3 col-lg-2 control-label mb-1 pr-0"><select class="form-control" name="type"><option value="doi">DOI</option><option value="isbn">ISBN</option><option value="ppn">K10plus-PPN</option><option value="scopus">Scopus-ID</option> </select></div>
+
+<div class="col-md-5 col-lg-4 mb-1 pl-0"><input class="form-control" name="modsId" type="text" /></div>
+</div>
+
+<div class="row form-group mt-4">
+<div class="col-sm-3 col-md-4"><button class="btn btn-primary" type="submit">Weiter</button></div>
+</div>
+</form>
+</section><section xml:lang="en" title="Publish"><form action="../../editor/editor-dynamic.xed" class="form-horizontal" id="submit_publication" method="get" role="form">
+<h2>Publish</h2>
+
+<div class="row">
+<div class="col-sm-12 col-md-8">
+<p>To publish your contribution on <span>pharm<span class="project-name__strong">R</span>χiv</span>, the recording is first of its bibliographical data required. To do this, please combine from the two -part selection menu - in the specific case at all required - the detection mask corresponding to the type of your publication.Please note that all marked with an asterisk * Fields of the selected detection mask are mandatory. Please send for each registered publication in addition a fully completed and with its electronic signature <a href="/content/publish/Antragsformular_Pharmrxiv_Single_en.pdf">Application form</a> to: <span class="madress"> pharmrxiv[at] tu-braunschweig.de</span></p>
+</div>
+</div>
+
+<div class="row form-group">
+<div class="col-sm-7 col-md-5 col-lg-4"><select class="form-control" id="genre" name="genre" size="1"> </select></div>
+</div>
+
+<h3>Import metadata from othe data sources</h3>
+
+<div class="row">
+<div class="col-sm-12 col-md-8">
+<p>It is possible to import the bibliographic data of the publikaction from the databases <a href="https://rzblx10.uni-regensburg.de/dbinfo/detail.php?titel_id=3636" title="https://rzblx10.uni-regensburg.de/dbinfo/detail.php?titel_id=3636">Scopus</a>, <a href="https://crossref.org/" title="https://crossref.org/">Crossref</a> and <a href="https://ieeexplore.ieee.org/" title="https://ieeexplore.ieee.org/">IEEE Xplore</a> as well as <a href="https://opac.k10plus.de/" title="https://opac.k10plus.de/">K10plus</a> and <a href="https://zdb-katalog.de/" title="https://zdb-katalog.de/">ZDB</a> into the relevant entry form. To do this, please first select the relevant identifier of your contribution and enter it.</p>
+</div>
+</div>
+
+<div class="row form-group">
+<div class="col-sm-3 col-lg-2 control-label mb-1"><select class="form-control" name="type"><option value="doi">DOI</option><option value="isbn">ISBN</option><option value="ppn">K10plus-PPN</option><option value="scopus">Scopus-ID</option> </select></div>
+
+<div class="col-md-5 col-lg-4 mb-1 pr-0"><input class="form-control" name="modsId" type="text" /></div>
+</div>
+
+<div class="row form-group mt-4 pl-0">
+<div class="col-sm-3 col-md-4"><button class="btn btn-primary" type="submit">Next</button></div>
+</div>
+</form>
+</section><meta><log lastEditor="konlauen" date="2023-03-02" time="12:50" /></meta></MyCoReWebPage>

@@ -1,60 +1,192 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage>
-    <section xml:lang="de" title="Leitlinie">
-        <div class="row">
-            <div class="col-md-12">
-                <h2>Leitlinie zum Publizieren</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. Ullamcorper morbi tincidunt ornare massa eget egestas purus
-                    viverra. Vitae purus faucibus ornare suspendisse sed nisi lacus. Erat velit scelerisque in
-                    dictum non consectetur a erat. Faucibus et molestie ac feugiat sed lectus. Turpis in eu mi
-                    bibendum neque. At erat pellentesque adipiscing commodo elit at imperdiet dui. Ut porttitor leo
-                    a diam. Gravida cum sociis natoque penatibus et magnis dis parturient montes. Mollis nunc sed id
-                    semper risus in hendrerit gravida rutrum. Eget nunc scelerisque viverra mauris. Et ligula
-                    ullamcorper malesuada proin libero nunc. Felis donec et odio pellentesque. Quis ipsum
-                    suspendisse ultrices gravida dictum. Amet dictum sit amet justo donec enim diam vulputate ut.
-                    Consequat ac felis donec et odio pellentesque diam.
-                </p>
-                <p>Vulputate odio ut enim blandit volutpat maecenas volutpat blandit. Imperdiet sed euismod nisi
-                    porta lorem mollis aliquam ut. Pretium vulputate sapien nec sagittis aliquam malesuada bibendum
-                    arcu. Nec feugiat in fermentum posuere urna nec tincidunt praesent. Praesent elementum facilisis
-                    leo vel fringilla est. Sit amet mattis vulputate enim nulla aliquet porttitor lacus. Suscipit
-                    tellus mauris a diam maecenas sed. Praesent elementum facilisis leo vel fringilla est
-                    ullamcorper eget nulla. Orci sagittis eu volutpat odio facilisis mauris sit amet. Eget gravida
-                    cum sociis natoque penatibus et magnis dis. In nisl nisi scelerisque eu. Massa tincidunt dui ut
-                    ornare. Semper eget duis at tellus at urna condimentum mattis. Viverra suspendisse potenti
-                    nullam ac tortor vitae purus faucibus ornare.
-                </p>
-                <p>Fermentum odio eu feugiat pretium nibh. Fermentum posuere urna nec tincidunt praesent semper
-                    feugiat nibh sed. Dignissim cras tincidunt lobortis feugiat vivamus at augue. Sit amet dictum
-                    sit amet. Aliquam sem fringilla ut morbi tincidunt augue interdum velit. Viverra orci sagittis
-                    eu volutpat. Non diam phasellus vestibulum lorem sed risus ultricies. Odio tempor orci dapibus
-                    ultrices in iaculis nunc sed. Pharetra vel turpis nunc eget. Odio morbi quis commodo odio aenean
-                    sed adipiscing. Amet cursus sit amet dictum sit. Nam libero justo laoreet sit amet cursus sit.
-                    Amet risus nullam eget felis eget nunc lobortis mattis.
-                </p>
-                <p>
-                    Odio aenean sed adipiscing diam donec adipiscing. Eget nunc lobortis mattis aliquam. Viverra
-                    accumsan in nisl nisi scelerisque eu. Netus et malesuada fames ac turpis. Egestas integer eget
-                    aliquet nibh praesent tristique magna sit. Ultrices neque ornare aenean euismod. Platea dictumst
-                    quisque sagittis purus sit amet volutpat. Suscipit adipiscing bibendum est ultricies integer
-                    quis. Varius quam quisque id diam vel quam elementum. At consectetur lorem donec massa sapien
-                    faucibus. Volutpat consequat mauris nunc congue. Pellentesque dignissim enim sit amet venenatis.
-                    Vitae tempus quam pellentesque nec nam aliquam. Tristique sollicitudin nibh sit amet commodo.
-                    Felis donec et odio pellentesque.
-                </p>
-                <p>Potenti nullam ac tortor vitae purus faucibus ornare. Volutpat maecenas volutpat blandit aliquam
-                    etiam. Orci eu lobortis elementum nibh tellus molestie nunc. Quam adipiscing vitae proin
-                    sagittis nisl rhoncus mattis rhoncus urna. Est ullamcorper eget nulla facilisi etiam dignissim
-                    diam quis enim. Risus at ultrices mi tempus imperdiet nulla. Non nisi est sit amet facilisis
-                    magna etiam. Fermentum dui faucibus in ornare quam. Duis ultricies lacus sed turpis tincidunt id
-                    aliquet risus. Sagittis vitae et leo duis ut diam quam nulla. Egestas dui id ornare arcu odio
-                    ut.
-                </p>
-            </div>
-        </div>
-    </section>
-    <meta>
-        <log lastEditor="dbbs_admin" date="2020-07-15" time="14:57"/>
-    </meta>
-</MyCoReWebPage>
+<MyCoReWebPage><section xml:lang="de" title="Leitlinie"><div>
+<h2><strong>Leitlinien zum Publizieren in pharmRxiv</strong></h2>
+
+<p> </p>
+
+<p>PharmRxiv ist das Fachrepositorium des Fachinformationsdienstes Pharmazie der Universitätsbibliothek Braunschweig und veröffentlicht dementsprechend fachlich relevante wissenschaftliche Veröffentlichungen aus der Pharmazie, insbesondere aus ihren Teildisziplinen Pharmazeutische und Medizinische Chemie, Pharmazeutische Biologie, Pharmazeutische Technologie, Pharmakologie, Klinische Pharmazie und Geschichte der Pharmazie.</p>
+
+<p>pharmRxiv bietet die organisatorischen und technischen Rahmenbedingungen, um die dauerhafte Verfügbarkeit der publizierten Objekte zu gewährleisten.</p>
+
+<p>Der technische Betrieb von pharmRxiv erfolgt durch den Fachinformationsdienst Pharmazie der Universitätsbibliothek Braunschweig in Zusammenarbeit mit der Verbundzentrale des Gemeinsamen Bibliotheksverbundes Göttingen (<a href="https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service" target="_blank">Reposis-Dienst</a>).</p>
+
+<p>In der Regel können englisch- und deutschsprachige Publikationen archiviert werden. Über die Aufnahme von Publikationen aus den Randgebieten der genannten Fächer sowie Publikationen in anderen Sprachen wird individuell auf Anfrage entschieden. In jedem Fall müssen wichtige Metadaten wie Titel und Abstract in englischer Sprache verfügbar sein.</p>
+
+<p> </p>
+
+<p><strong>Erklärung zu Open Access</strong></p>
+
+<p>Die Universitätsbibliothek Braunschweig (Fachinformationsdienst Pharmazie) fördert den freien Austausch von Forschungsergebnissen (Open Access) und verfolgt neben dem grünen Weg des Open-Access auch die Erstveröffentlichung (z.B. in Form von Preprints) und Publikation von Forschungsdaten.</p>
+
+<p> </p>
+
+<p><strong>Was kann veröffentlicht werden?</strong></p>
+
+<p>Folgende Dokumentenarten können u.a. auf pharmRxiv archiviert und verfügbar gemacht werden:</p>
+
+<ul>
+	<li>Aufsätze aus Zeitschriften</li>
+	<li>Kongress-Beiträge, inkl. wissenschaftliche Poster</li>
+	<li>Monographien und Sammelwerke</li>
+	<li>Fachlich relevante audiovisuelle Publikationen</li>
+	<li>Forschungsdaten</li>
+</ul>
+
+<p> </p>
+
+<p><strong>Das elektronische Dokument</strong></p>
+
+<p>Es handelt sich um ein Werk oder eine relevante Quelle, das die genannten Kriterien erfüllt und zur Verbreitung in der Öffentlichkeit bestimmt ist. Das elektronische Dokument ist kein sich dynamisch veränderndes Dokument. Sind Veränderungen notwendig, wird das geänderte Dokument als neue Version gespeichert. Bereits publizierte Dokumente werden nicht gelöscht oder verändert, es sei denn, es liegen schwerwiegende rechtliche Gründe vor.</p>
+
+<p>Das elektronische Dokument basiert auf Text, Grafik, Audio- oder Videosequenzen oder sonstigen Daten. Es ist in digitaler Form auf einem Datenträger gespeichert und wird über Rechnernetze verbreitet. PharmRxiv unterstützt alle Dateiformate, empfiehlt jedoch die Nutzung offener Formate, die zur Langzeitarchivierung geeignet sind und über frei zugängliche Darstellungsprogramme angezeigt werden können (z. B. PDF/A, TeX, XML). Ergänzend kann auch das Originalformat des Dokuments archiviert werden.</p>
+
+<p>Das elektronische Dokument muss frei sein von jeglichen technischen Schutzvorrichtungen und Verfahren des Digitalen Rechtemanagements (DRM). Formatmigrationen werden bei Bedarf vorgenommen, um z. B. die Langzeitverfügbarkeit zu gewährleisten. Formatmigrationen gelten nicht als Veränderung des elektronischen Dokuments.</p>
+
+<p>Es gibt keine Layout-Vorgaben.</p>
+
+<p>Bei sehr umfangreichen Datensätzen, z.B. bei audiovisuellem Material oder Forschungsdaten, bitten wir um vorherige Kontaktaufnahme.  </p>
+
+<p> </p>
+
+<p><strong>Wie kann veröffentlicht werden?</strong></p>
+
+<p>Es steht ein Formular zum Hochladen (für <strong>eine </strong>Publikation: <a href="/content/publish/Antragsformular_Pharmrxiv_Single_de.pdf">Antragsformular_Pharmrxiv_Single</a> , oder für <strong>mehrere </strong>Publikationen: <a href="/content/publish/Antragsformular_Pharmrxiv_Multiple_de.pdf">Antragsformular_Pharmrxiv_Multiple</a>) des Dokuments bzw. der Dokumente und der zugehörigen Metadaten zur Verfügung. Nach Absprache sind weitere Übermittlungsformen möglich.</p>
+
+<p>Die elektronischen Dokumente werden durch die Universitätsbibliothek Braunschweig (Fachinformationsdienst Pharmazie) geprüft und nach Eingang der Einwilligung zur Veröffentlichung für Publikationen freigeschaltet und damit veröffentlicht.</p>
+
+<p> </p>
+
+<p><strong>Rechtliche Rahmenbedingungen</strong></p>
+
+<p>Die Autorinnen bzw. Autoren übertragen der Universitätsbibliothek Braunschweig (Fachinformationsdienst Pharmazie) ein einfaches und unbefristetes Nutzungsrecht. Die Urheberrechte der Autorinnen bzw. Autoren bleiben gewahrt. Eine Publikation in pharmRxiv steht einer weiteren Veröffentlichung (z.B. in Fachzeitschriften oder auf anderen Servern) nicht entgegen. Umgekehrt werden auch Zweitveröffentlichungen akzeptiert, sofern rechtliche oder vertragliche Regelungen dies zulassen.</p>
+
+<p>Die Rechteübertragung bedarf grundsätzlich der Schriftform.</p>
+
+<ul>
+	<li>Einwilligung zur Veröffentlichung für Publikationen</li>
+	<li>Vertragsbedingungen von pharmRxiv</li>
+</ul>
+
+<p>Die Einhaltung von Urheber- und Verwertungsrechten Dritter liegt in der Verantwortung der Autorinnen bzw. Autoren.</p>
+
+<p>Die Autorinnen bzw. Autoren entscheiden, ob und unter welcher CC-Lizenz ihr Dokument veröffentlicht wird. Die Universitätsbibliothek empfiehlt die Anwendung der <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.de" target="_blank">Creative Commons-Lizenz CC-BY</a>.</p>
+
+<p>Die Universitätsbibliothek Braunschweig (Fachinformationsdienst Pharmazie) behält sich das Recht vor, den öffentlichen Zugriff auf eine Publikation zu sperren, sofern konkrete Anhaltspunkte für eine Rechtsverletzung bestehen. Die Universitätsbibliothek Braunschweig (Fachinformationsdienst Pharmazie) haftet nicht für aus der Verletzung von Urheber- und Verwertungsrechten resultierende Schäden, sofern kein nachweislich vorsätzliches oder grob fahrlässiges Verschulden ihrerseits vorliegt. Die Autorinnen bzw. Autoren versichern, in Zweifelsfällen oder bei Entstehen vermeintlicher oder tatsächlicher Rechtsverletzungen die Universitätsbibliothek Braunschweig (Fachinformations­dienst Pharmazie)  hiervon unverzüglich in Kenntnis zu setzen.</p>
+
+<p> </p>
+
+<p><strong>Services der Universitätsbibliothek Braunschweig (Fachinformationsdienst Pharmazie)</strong></p>
+
+<p>Die Veröffentlichung auf pharmRxiv ist kostenfrei. Für die Veröffentlichung notwendige Tätigkeiten (z.B. Aufbereitung der elektronischen Dokumente, Formatkonvertierung) werden vom Fachinformationsdienst Pharmazie nach Absprache unterstützt bzw. durchgeführt. Tätigkeiten, die einen bedeutenden Mehraufwand erfordern, können in Rechnung gestellt werden.</p>
+
+<p>Die Universitätsbibliothek Braunschweig (Fachinformationsdienst Pharmazie) bietet Beratung und Unterstützung bei allen Fragen zum Publizieren auf pharmRxiv an. Sie vergibt dauerhafte persistente und zitierfähige Identifier wie URL, URN und DOI, um die Dokumente langfristig zugänglich und auffindbar zu machen. Sie unterstützt ggf. bei der formalen als auch der inhaltlichen Erschließung der Dokumente (mittels Dewey-Klassifikation) sowie bei der Prüfung und Pflege der Metadaten.<br />
+Die Metadaten der Dokumente und deren Link zum Volltext werden in der Rechercheplattform PubPharm und in anderen Katalogen öffentlich-rechtlicher Einrichtungen (z.B. den Nachweissystemen der Bibliotheksverbünde) nachgewiesen.</p>
+
+<p>Die Universitätsbibliothek Braunschweig (Fachinformationsdienst Pharmazie) garantiert für elektronische Publikationen einen Archivierungszeitraum von mindestens fünf Jahren. Darüber hinaus verpflichtet sich die Universitätsbibliothek Braunschweig (Fachinformationsdienst Pharmazie), die Dokumente der Langzeitarchivierung zuzuführen. Dabei kooperiert sie u.a. mit der TIB – Leibniz-Informationszentrum Technik und Naturwissenschaften.</p>
+
+<p> </p>
+
+<p><strong>Ansprechpartner:innen für Publikationen:</strong></p>
+
+<p>Herr Stefan Wulle</p>
+
+<p>E-Mail: <a href="mailto:pharmrxiv@tu-braunschweig.de">pharmrxiv@tu-braunschweig.de</a></p>
+
+<p>Telefon: +49 (0)531 391 5003</p>
+</div>
+</section><section xml:lang="en" title="Policy"><div>
+<h2><strong>Guidelines for publishing in pharmRxiv</strong></h2>
+
+<p> </p>
+
+<p>PharmRxiv is the specialized repository of the Specialized Information Service Pharmacy of University Library Braunschweig and publishes relevant scientific publications from pharmacy, especially from its sub-disciplines Pharmaceutical and Medicinal Chemistry, Pharmaceutical Biology, Pharmaceutical Technology, Pharmacology, Clinical Pharmacy and History of Pharmacy.</p>
+
+<p>PharmRxiv provides the organizational and technical framework to ensure the permanent availability of the published objects.</p>
+
+<p>The technical operation of pharmRxiv is carried out by the Specialized Information Service Pharmacy of the University Library of Braunschweig in cooperation with the Network Headquarters of the Joint Library Network Göttingen (<a href="https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service" target="_blank">Reposis Service</a>).</p>
+
+<p>As a rule, English- and German-language publications can be archived. Decisions on the inclusion of publications from the peripheral areas of the subjects mentioned as well as publications in other languages will be made individually upon request. In any case, important metadata such as title and abstract must be available in English.</p>
+
+<p> </p>
+
+<p><strong>Open Access declaration </strong></p>
+
+<p>University Library Braunschweig (Specialized Information Service Pharmacy) promotes the free exchange of research results (Open Access) and, in addition to the green road of Open Access, also pursues the first publication (e.g. in the form of preprints) and publication of research data.</p>
+
+<p> </p>
+
+<p><strong>What can be published?</strong></p>
+
+<p>The following document types, among others, can be archived and be published on pharmRxiv:</p>
+
+<ul>
+	<li>Articles from journals</li>
+	<li>Congress contributions, incl. scientific posters</li>
+	<li>Monographs and collective works</li>
+	<li>Audiovisual publications relevant to the subject</li>
+	<li>Research data</li>
+</ul>
+
+<p> </p>
+
+<p><strong>The electronic document</strong></p>
+
+<p>It is a work or relevant source that meets the above criteria and is intended for distribution to the public. The electronic document is not a dynamically changing document. If changes are necessary, the changed document is saved as a new version. Documents that have already been published will not be deleted or modified unless there are serious legal reasons.</p>
+
+<p>The electronic document is based on text, graphics, audio or video sequences or other data. It is stored in digital form on a data storage and is distributed via computer networks. PharmRxiv supports all file formats, but recommends the use of open formats that are suitable for long-term archiving and can be displayed using freely accessible display programs (e.g. PDF/A, TeX, XML). In addition, the original format of the document can also be archived.</p>
+
+<p>The electronic document must be free of any technical protection mechanisms and digital rights management (DRM) procedures. Format migrations are performed as needed, for example, to ensure long-term availability. Format migrations are not considered a change to the electronic document.</p>
+
+<p>There are no layout specifications.</p>
+
+<p>For very large data sets, e.g. audiovisual material or research data, please contact us in advance. </p>
+
+<p> </p>
+
+<p><strong>How to publish?</strong></p>
+
+<p>A form for uploading (for <strong>one </strong>publication: <a href="/content/publish/Antragsformular_Pharmrxiv_Single_en.pdf">Applicationform_Pharmrxiv_Single</a>, or for <strong>multiple </strong>publications: <a href="/content/publish/Antragsformular_Pharmrxiv_Multiple_en.pdf">Applicationform_Pharmrxiv_Multiple</a>) the document(s) and the associated metadata is available. Other forms of transmission are possible by arrangement.</p>
+
+<p>The electronic documents are checked by the university library and after receipt of the consent for publication they are released for publications and thus published.</p>
+
+<p> </p>
+
+<p><strong>Legal framework</strong></p>
+
+<p>The authors transfer a simple and unlimited right of use to the university library. The copyrights of the authors remain intact. A publication in pharmRxiv does not prevent further publication (e.g. in journals or on other servers). Conversely, secondary publications are also accepted, provided that legal or contractual regulations permit this.</p>
+
+<p>The transfer of rights must always be in writing.</p>
+
+<ul>
+	<li>Consent to publication for publications</li>
+	<li>Terms of contract of pharmRxiv</li>
+</ul>
+
+<p>The compliance with copyrights and exploitation rights of third parties is the responsibility of the authors.</p>
+
+<p>The authors decide whether and under which CC license their document will be published. The University Library Braunschweig recommends the use of the <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.en" target="_blank">Creative Commons license CC-BY</a>.</p>
+
+<p>University Library Braunschweig (Specialized Information Service Pharmacy) reserves the right to block public access to a publication if there are concrete indications of a violation of rights. University Library Braunschweig (Specialized Information Service Pharmacy) is not liable for damages resulting from the violation of copyrights and exploitation rights, provided that there is no demonstrable intentional or grossly negligent fault on its part. The authors assure to inform the University Library Braunschweig (Pharmacy Information Service) immediately in case of doubt or if alleged or actual infringements of rights occur.</p>
+
+<p> </p>
+
+<p><strong>Services of University Library Braunschweig (Specialized Information Service Pharmacy).</strong></p>
+
+<p>Publishing on pharmRxiv is free of charge. Activities necessary for publication (e.g. preparation of electronic documents, format conversion) are supported or carried out by the Fachinformationsdienst Pharmazie by arrangement. Activities that require a significant additional effort may be charged.</p>
+
+<p>The University Library Braunschweig (Fachinformationsdienst Pharmazie) offers advice and support for all questions regarding publishing on pharmRxiv. It assigns permanent persistent and citable identifiers such as URL, URN and DOI to make the documents accessible and findable in the long term. If necessary, it supports the formal as well as the content-related indexing of the documents (by means of Dewey classification) as well as the verification and maintenance of the metadata.</p>
+
+<p>The metadata of the documents and their link to the full text are indexed in the research platform PubPharm and in other catalogs of public institutions (e.g. the reference systems of the library networks).</p>
+
+<p>University Library Braunschweig ( specialized information service pharmacy) guarantees an archiving period of at least five years for electronic publications. Furthermore, University Library Braunschweig (Specialized Information Service Pharmacy) commits itself to long-term archiving of the documents. It cooperates with the TIB - Leibniz Information Center for Technology and Natural Sciences, among others.</p>
+
+<p> </p>
+
+<p><strong>Contact:</strong></p>
+
+<p>Mr. Stefan Wulle</p>
+
+<p>E-Mail: <a href="mailto:pharmrxiv@tu-braunschweig.de">pharmrxiv@tu-braunschweig.de</a></p>
+
+<p>Phone: +49 (0)531 391 5003</p>
+</div></section><meta><log lastEditor="konlauen" date="2023-03-02" time="12:53" /></meta></MyCoReWebPage>

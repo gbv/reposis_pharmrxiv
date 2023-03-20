@@ -1,61 +1,187 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage>
-    <section xml:lang="de" title="Hinweise für Autoren">
-        <div class="row">
-            <div class="col-md-12">
-                <h2>Hinweise für Autor/innen</h2>
+<MyCoReWebPage><section xml:lang="de" title="Hinweise für Autoren"><div class="row">
+<div class="col-md-12">
+<h2>Hinweise für Autorinnen und Autoren</h2>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. Ullamcorper morbi tincidunt ornare massa eget egestas purus
-                    viverra. Vitae purus faucibus ornare suspendisse sed nisi lacus. Erat velit scelerisque in
-                    dictum non consectetur a erat. Faucibus et molestie ac feugiat sed lectus. Turpis in eu mi
-                    bibendum neque. At erat pellentesque adipiscing commodo elit at imperdiet dui. Ut porttitor leo
-                    a diam. Gravida cum sociis natoque penatibus et magnis dis parturient montes. Mollis nunc sed id
-                    semper risus in hendrerit gravida rutrum. Eget nunc scelerisque viverra mauris. Et ligula
-                    ullamcorper malesuada proin libero nunc. Felis donec et odio pellentesque. Quis ipsum
-                    suspendisse ultrices gravida dictum. Amet dictum sit amet justo donec enim diam vulputate ut.
-                    Consequat ac felis donec et odio pellentesque diam.
-                </p>
-                <p>Vulputate odio ut enim blandit volutpat maecenas volutpat blandit. Imperdiet sed euismod nisi
-                    porta lorem mollis aliquam ut. Pretium vulputate sapien nec sagittis aliquam malesuada bibendum
-                    arcu. Nec feugiat in fermentum posuere urna nec tincidunt praesent. Praesent elementum facilisis
-                    leo vel fringilla est. Sit amet mattis vulputate enim nulla aliquet porttitor lacus. Suscipit
-                    tellus mauris a diam maecenas sed. Praesent elementum facilisis leo vel fringilla est
-                    ullamcorper eget nulla. Orci sagittis eu volutpat odio facilisis mauris sit amet. Eget gravida
-                    cum sociis natoque penatibus et magnis dis. In nisl nisi scelerisque eu. Massa tincidunt dui ut
-                    ornare. Semper eget duis at tellus at urna condimentum mattis. Viverra suspendisse potenti
-                    nullam ac tortor vitae purus faucibus ornare.
-                </p>
-                <p>Fermentum odio eu feugiat pretium nibh. Fermentum posuere urna nec tincidunt praesent semper
-                    feugiat nibh sed. Dignissim cras tincidunt lobortis feugiat vivamus at augue. Sit amet dictum
-                    sit amet. Aliquam sem fringilla ut morbi tincidunt augue interdum velit. Viverra orci sagittis
-                    eu volutpat. Non diam phasellus vestibulum lorem sed risus ultricies. Odio tempor orci dapibus
-                    ultrices in iaculis nunc sed. Pharetra vel turpis nunc eget. Odio morbi quis commodo odio aenean
-                    sed adipiscing. Amet cursus sit amet dictum sit. Nam libero justo laoreet sit amet cursus sit.
-                    Amet risus nullam eget felis eget nunc lobortis mattis.
-                </p>
-                <p>
-                    Odio aenean sed adipiscing diam donec adipiscing. Eget nunc lobortis mattis aliquam. Viverra
-                    accumsan in nisl nisi scelerisque eu. Netus et malesuada fames ac turpis. Egestas integer eget
-                    aliquet nibh praesent tristique magna sit. Ultrices neque ornare aenean euismod. Platea dictumst
-                    quisque sagittis purus sit amet volutpat. Suscipit adipiscing bibendum est ultricies integer
-                    quis. Varius quam quisque id diam vel quam elementum. At consectetur lorem donec massa sapien
-                    faucibus. Volutpat consequat mauris nunc congue. Pellentesque dignissim enim sit amet venenatis.
-                    Vitae tempus quam pellentesque nec nam aliquam. Tristique sollicitudin nibh sit amet commodo.
-                    Felis donec et odio pellentesque.
-                </p>
-                <p>Potenti nullam ac tortor vitae purus faucibus ornare. Volutpat maecenas volutpat blandit aliquam
-                    etiam. Orci eu lobortis elementum nibh tellus molestie nunc. Quam adipiscing vitae proin
-                    sagittis nisl rhoncus mattis rhoncus urna. Est ullamcorper eget nulla facilisi etiam dignissim
-                    diam quis enim. Risus at ultrices mi tempus imperdiet nulla. Non nisi est sit amet facilisis
-                    magna etiam. Fermentum dui faucibus in ornare quam. Duis ultricies lacus sed turpis tincidunt id
-                    aliquet risus. Sagittis vitae et leo duis ut diam quam nulla. Egestas dui id ornare arcu odio
-                    ut.
-                </p>
-            </div>
-        </div>
-    </section>
-    <meta>
-        <log lastEditor="administrator" date="2020-08-28" time="14:46"/>
-    </meta>
-</MyCoReWebPage>
+<ol>
+	<li>    <a href="https://pharmrxiv.de/content/publish/author_notes.xml?lang=de#1_pub_allgemein">Publizieren für Wissenschaftlerinnen und Wissenschaftler</a></li>
+	<li>    <a href="https://pharmrxiv.de/content/publish/author_notes.xml?lang=de#2_fd">Publizieren und Archivieren von Forschungsdaten</a></li>
+	<li>    <a href="https://pharmrxiv.de/content/publish/author_notes.xml?lang=de#3_empf">Voraussetzungen und Empfehlungen</a></li>
+	<li>    <a href="https://pharmrxiv.de/content/publish/author_notes.xml?lang=de#4_vorgehen">Vorgehensweise</a></li>
+	<li>    <a href="https://pharmrxiv.de/content/publish/author_notes.xml?lang=de#5_kontakt">Kontakt</a></li>
+</ol>
+
+<p> </p>
+
+<p><a name="1_pub_allgemein"><strong>1. Publizieren für Wissenschaftlerinnen und Wissenschaftler</strong></a></p>
+
+<p>Mit der Publikation Ihrer Forschungsergebnisse über das Repositorium pharmRxiv, unterstützen Sie als Autorin bzw. Autor, als Forschungseinrichtung oder als Verlag den freien Zugang zu pharmazeutischen Veröffentlichungen, die damit mit optimaler Sichtbarkeit dauerhaft im Netz zur Verfügung stehen.</p>
+
+<p>Als Wissenschaftlerin bzw. Wissenschaftler einer pharmazeutischen Teildisziplin(insbes. Pharmazeutische und Medizinische Chemie, Pharmazeutische Biologie, Pharmazeutische Technologie, Pharmakologie, Klinische Pharmazie, Geschichte der Pharmazie) können Sie Ihre elektronischen Publikationen (Aufsätze aus Zeitschriften und Büchern, Tagungsbände, Forschungsberichte etc.) kostenlos und zeitlich unbegrenzt auf pharmRxiv, Open Access veröffentlichen.</p>
+
+<p>Es gibt zwei Möglichkeiten zur Veröffentlichung:</p>
+
+<ul>
+	<li><strong>Erstveröffentlichung:</strong> ist die Veröffentlichung einer Publikation, die bisher nirgendwo anders erschienen ist (hier auch Preprints).</li>
+	<li><strong>Zweitveröffentlichung:</strong> ist die Veröffentlichung einer bereits erschienenen Verlagspublikation. Viele Zeitschriftenverlage gestatten eine weitere Veröffentlichung auf einem institutionellen Repositorium unter bestimmen Bedingungen (z. B. nach einer definierten Embargofrist). Mit Hilfe der <a href="http://www.sherpa.ac.uk/romeo/index.php" target="_blank">SHERPA/RoMEO-Liste</a> können Sie herausfinden, welche Bedingungen die einzelnen Zeitschriften stellen. Der Fachinformationsdienst Pharmazie unterstützt Sie gern dabei, Ihre Publikation auf eine mögliche Zweitveröffentlichung hin zu prüfen.</li>
+</ul>
+
+<p>Die Publikationen werden unter Wahrung des <a href="http://www.gesetze-im-internet.de/urhg/index.html" target="_blank">geltenden deutschen Urheberrechts</a> veröffentlicht, d.h. das Urheberrecht verbleibt bei Ihnen. Sie übertragen lediglich der Universitätsbibliothek Braunschweig (Fachinformationsdienst Pharmazie) das einfache, zeitlich unbefristete Nutzungsrecht, die eingereichten Publikationen auf ihren Servern zu vervielfältigen, zu speichern, öffentlich zugänglich zu machen. Bitte beachten Sie, dass Sie ggf. das Einverständnis zur Veröffentlichung von Co-Autorinnen bzw. Co-Autoren einzuholen müssen. Die Einhaltung von Urheber- und Verwertungsrechten Dritter liegt in Ihrer Verantwortung.</p>
+
+<p>Ihre Publikation erhält einen persistenten Identifier (DOI, URN), wird langzeitarchiviert und kann mit Ihrem ORCiD-Account verknüpft werden. Die Metadaten werden in gängigen Bibliothekskatalogen indexiert und regelmäßig von Suchmaschinen geharvestet (z.B. Deutsche Nationalbibliothek, BASE, GoogleScholar, OpenAire). pharmRxiv ist OpenAire3.0-kompatibel und erfüllt damit die Voraussetzungen für eine Horizon2020-geförderte Publikation.</p>
+
+<p> </p>
+
+<p><a name="2_fd"><strong>2. Publizieren und Archivieren von Forschungsdaten</strong></a></p>
+
+<p>Als Wissenschaftlerin bzw. Wissenschaftler einer pharmazeutischen Teildisziplin können Sie Ihre Forschungsdaten auf pharmRxiv publizieren und archivieren. Beim Publizieren erhält Ihr veröffentlichter Datensatz einen persistenten Identifier (DOI, URN), wird archiviert (derzeit lediglich Bitstream Preservation) und kann mit Ihrem ORCiD-Account verknüpft werden. Veröffentlichte Datensätze können frei oder eingeschränkt zugänglich gemacht werden.</p>
+
+<p> </p>
+
+<p><a name="3_empf"><strong>3. Voraussetzungen und Empfehlungen</strong></a></p>
+
+<ul>
+	<li><strong>Zugehörigkeit: </strong>pharmRxiv ist das wissenschaftliche Fachrepositorium für die Pharmazie und veröffentlicht dementsprechend fachlich relevante wissenschaftliche Veröffentlichungen insbes. aus der Pharmazeutischen und Medizinischen Chemie, Pharmazeutischen Biologie, Pharmazeutischen Technologie, Pharmakologie, Klinischen Pharmazie und Geschichte der Pharmazie.</li>
+	<li><strong>Wahrung des Urheberrechts:</strong> Sie müssen sicher stellen, dass Sie über die Urheberrechte des Werkes verfügen bzw. bei einer Co-Autorenschaft das Einverständnis zur Veröffentlichung durch Ihre Co-Autorinnen bzw. Co-Autoren vorliegen haben. </li>
+	<li><strong>Zustimmung zu den Vertragsbedingungen: </strong>Sie müssen unseren <a href="https://pharmrxiv.de/content/publish/contract.xml" target="_blank">Vertragsbedingungen</a> zur Veröffentlichung Ihrer Dokumente in pharmRxiv zustimmen. Dies geschieht durch Ihre Unterschrift auf dem Antragsformular (siehe Punkt "4. Vorgehensweise", Schritt 1)</li>
+	<li><strong>Technische Formate:</strong> Sie haben die Möglichkeit, jegliche Dokumenttypen (Text, Grafik, Audio- oder Videosequenzen, Forschungsdaten, etc.) zu veröffentlichen. Die Dokumente dürfen nicht zugriffsbeschränkt sein. Die Digitale Bibliothek unterstützt alle Dateiformate, empfiehlt jedoch die Nutzung offener Formate (z. B. PDF/A, TeX, XML), die zur Langzeitarchivierung geeignet sind und über frei zugängliche Darstellungsprogramme angezeigt werden können. Ergänzend kann auch das Originalformat des Dokuments archiviert werden.</li>
+	<li><strong>Barrierefreiheit</strong>: Beachten Sie bei Ihrer Publikation die Anforderungen zur Barrierefreiheit gemäß Paragraph 3 Absatz 1 bis 4 und Paragraph 4 der Barrierefreien-Informationstechnik-Verordnung (BITV 2.0), die auf Grundlage von § 12d Behindertengleichstellungsgesetz (BGG) erlassen wurden.</li>
+	<li><strong>Veränderungen am Dokument:</strong> Sind Veränderungen am Dokument notwendig, wird das geänderte Dokument als neue Version gespeichert. Bereits publizierte Dokumente werden nicht gelöscht oder verändert, es sei denn, es liegen schwerwiegende rechtliche Gründe vor.</li>
+	<li><strong>Forschungsdaten: </strong>Beachten Sie bei einer Publikation bzw. Archivierung Ihrer Forschungsdaten eine nachvollziehbare Ordnerstruktur und Dateibenennung. Zudem sollte Ihrem Datensatz eine <a href="https://leopard.tu-braunschweig.de/content/publish/README_Template_TUBS.pdf">README-Datei</a> mit beschreibenden Metadaten beiliegen.</li>
+</ul>
+
+<p> </p>
+
+<p><a name="4_vorgehen"><strong>4. Vorgehensweise</strong></a></p>
+
+<p><strong>Schritt 1:</strong></p>
+
+<p>Bitte füllen Sie</p>
+
+<ul>
+	<li>das Antragsformular „<a href="/content/publish/Antragsformular_Pharmrxiv_Single_de.pdf">Antragsformular_Pharmrxiv_Single</a>“ aus wenn Sie <strong>eine</strong> Publikation einreichen wollen</li>
+	<li>das Antragsformular „<a href="/content/publish/Antragsformular_Pharmrxiv_Multiple_de.pdf">Antragsformular_Pharmrxiv_Multiple</a>“ aus, wenn Sie <strong>mehrere</strong> Publikationen einreichen wollen</li>
+</ul>
+
+<p>Für die Publikation von Forschungsdaten nehmen Sie bitte zunächst Kontakt zu uns unter der Adresse  <a href="mailto:pharmrxiv@tu-braunschweig.de">pharmrxiv@tu-braunschweig.de</a> auf.</p>
+
+<p>Auf dem Formular vergeben Sie eine Lizenz für die Nutzungsrechte. Wir empfehlen die Anwendung der Creative Commons-Lizenz CC-BY. Nähere Informationen zur Lizenzauswahl finden Sie <a href="https://creativecommons.org/choose/" target="_blank">hier</a>.</p>
+
+<p>Sie akzeptieren die Vertragsbedingungen mit Ihrer Unterschrift auf der letzten Seite.</p>
+
+<p>Das unterschriebene Formular senden Sie bitte per <strong>E-Mail</strong> an <a href="mailto:pharmrxiv@tu-braunschweig.de">pharmrxiv@tu-braunschweig.de</a></p>
+
+<p><strong>Schritt 2:</strong></p>
+
+<p>Bitte übermitteln Sie Ihre Publikation(en) per Webformular, eine Registrierung ist erforderlich.</p>
+
+<p>Wir prüfen formal Ihr eingereichtes Dokument bzw. ihre eingereichten Daten und veröffentlichen bzw. archivieren diese auf dem Publikationsserver. Sie erhalten innerhalb einer Woche eine Rückmeldung per E-Mail.</p>
+
+<p> </p>
+
+<p><a name="5_kontakt"><strong>5. Kontakt</strong></a></p>
+
+<p>Wir unterstützen Sie gern bei Ihren Erst- und Zweitveröffentlichungen, bei Fragen wenden Sie sich an:</p>
+
+<p> </p>
+
+<p>Herr Stefan Wulle</p>
+
+<p>E-Mail: <a href="mailto:pharmrxiv@tu-braunschweig.de">pharmrxiv@tu-braunschweig.de</a></p>
+
+<p>Telefon: +49 (0)531 391 5003</p>
+</div>
+</div>
+</section><section xml:lang="en" title="Notes for Authors"><div class="row">
+<div class="col-md-12">
+<h2>Notes for authors</h2>
+
+<ol>
+	<li>    <a href="https://pharmrxiv.de/content/publish/author_notes.xml?lang=en#1_pub_generell">Publishing for researchers</a></li>
+	<li>    <a href="https://pharmrxiv.de/content/publish/author_notes.xml?lang=en#2_p_a">Publishing and archiving research data</a></li>
+	<li>    <a href="https://pharmrxiv.de/content/publish/author_notes.xml?lang=en#3_req_rec">Requirements and recommendations</a></li>
+	<li>    <a href="https://pharmrxiv.de/content/publish/author_notes.xml?lang=en#4_procedure">Procedure</a></li>
+	<li>    <a href="https://pharmrxiv.de/content/publish/author_notes.xml?lang=en#5_contact">Contact</a></li>
+</ol>
+
+<p> </p>
+
+<p><a name="1_pub_generell"><strong>1. Publishing for researchers</strong></a></p>
+
+<p>By publishing your research results in the pharmRxiv repository, you as an author, research institution or publisher support free access to pharmaceutical publications, which are thus permanently available on the web with optimal visibility.</p>
+
+<p>As a scientist of a pharmaceutical sub-discipline (esp. pharmaceutical and medicinal chemistry, pharmaceutical biology, pharmaceutical technology, pharmacology, clinical pharmacy, history of pharmacy) you can publish your electronic publications (articles from journals and books, conference proceedings, research reports, etc.) free of charge and for an unlimited period of time on pharmRxiv, Open Access.</p>
+
+<p>There are two ways to publish:</p>
+
+<ul>
+	<li><strong>Primary publication:</strong> is the release of a publication that has not previously appeared anywhere else (here also preprints).</li>
+	<li><strong>Secondary publication: </strong>is the publication of a publisher's publication that has already appeared. Many journal publishers allow further publication on an institutional repository under certain conditions (e.g. after a defined embargo period). With the help of the <a href="http://www.sherpa.ac.uk/romeo/index.php" target="_blank">SHERPA/RoMEO-Liste</a> list you can find out which conditions the individual journals impose. The Specialized Information Service Pharmacy will be happy to support you in checking your publication for a possible secondary publication.</li>
+</ul>
+
+<p>The publications will be published in compliance with the <a href="http://www.gesetze-im-internet.de/urhg/index.html" target="_blank">applicable German copyright law</a>, i.e. the copyright remains with you. You only transfer to the Braunschweig University Library (Specialized Information Service Pharmacy) the simple right of use, unlimited in time, to store the submitted publications on its servers, to duplicate and make them publicly accessible. Please note that you may need to obtain the consent of co-authors for publication. It is your responsibility to comply with the copyright and exploitation rights of third parties.</p>
+
+<p>Your publication receives a persistent identifier (DOI, URN), will be long-term archived and can be linked to your ORCiD account. The metadata is indexed in common library catalogs and regularly harvested by search engines (e.g. German National Library, BASE, GoogleScholar, OpenAire). pharmRxiv is OpenAire3.0 compatible and thus fulfills the requirements for a Horizon2020-funded publication.</p>
+
+<p> </p>
+
+<p><a name="2_p_a"><strong>2. Publishing and archiving research data</strong></a></p>
+
+<p>As a scientist of a pharmaceutical subdiscipline you can publish and archive your research data on pharmRxiv. When you publish, your published dataset is assigned a persistent identifier (DOI, URN), archived (currently only bitstream preservation), and can be linked to your ORCiD account. Published datasets can be made freely accessible or restricted access.</p>
+
+<p> </p>
+
+<p><a name="3_req_rec"><strong>3. Requirements and recommendations</strong></a></p>
+
+<ul>
+	<li><strong>Affiliation:</strong> pharmRxiv is the scientific repository for pharmacy and accordingly it publishes relevant scientific publications, especially from the fields of pharmaceutical and medicinal chemistry, pharmaceutical biology, pharmaceutical technology, pharmacology, clinical pharmacy and history of pharmacy.</li>
+	<li><strong>Consent to the terms of contract:</strong> You must agree to our contract terms for publishing your documents in pharmRxiv. This is done by your signature on the application form (see point "3. Procedure", step 1). </li>
+	<li><strong>Consent to the terms of contract:</strong> You must agree to our <a href="https://pharmrxiv.de/content/publish/contract.xml" target="_blank"> contract terms</a> for publishing your documents in pharmRxiv. This is done by your signature on the application form (see point "4. Procedure", step 1)</li>
+	<li><strong>Technical formats:</strong> You have the possibility to publish any type of document (text, graphic, audio or video sequences, research data, etc.). The documents must not be access restricted. The Digital Library supports all file formats, but recommends the use of open formats (e.g. PDF/A, TeX, XML) that are suitable for long-term archiving and can be displayed using freely accessible display programs. In addition, the original format of the document can also be archived.</li>
+	<li><strong>Accessibility:</strong> For your publication, follow the requirements for accessibility according to paragraph 3 (1) to (4) and paragraph 4 of the Barrier-Free Information Technology Ordinance (BITV 2.0), which were issued on the basis of Section 12d of the Disability Equality Act (BGG).</li>
+	<li><strong>Changes to the document:</strong> If changes to the document are necessary, the changed document is saved as a new version. Documents that have already been published will not be deleted or changed unless there are serious legal reasons.</li>
+	<li><strong>Research data:</strong> When publishing or archiving your research data, ensure a traceable folder structure and file naming. In addition, a <a href="https://leopard.tu-braunschweig.de/content/publish/README_Template_TUBS.pdf">README</a> file with descriptive metadata should be included with your dataset.</li>
+</ul>
+
+<p> </p>
+
+<p><a name="4_procedure"><strong>4. Procedure</strong></a></p>
+
+<p><strong>Step 1:</strong></p>
+
+<p>Please fill in</p>
+
+<ul>
+	<li>The application form "<a href="/content/publish/Antragsformular_Pharmrxiv_Single_en.pdf">Applicationform_Pharmrxiv_Single</a>" if you want to submit <strong>one</strong> publication</li>
+	<li>The application form "<a href="/content/publish/Antragsformular_Pharmrxiv_Multiple_en.pdf">Applicationform_Pharmrxiv_Multiple</a>" if you want to submit <strong>several</strong> publications</li>
+</ul>
+
+<p>For publication of research data, please contact us first at <a href="mailto:pharmrxiv@tu-braunschweig.de">pharmrxiv@tu-braunschweig.de</a>.</p>
+
+<p>On the form, you will assign a license for the rights of use. We recommend the use of the Creative Commons license CC-BY. You can find more information about the license selection <a href="https://creativecommons.org/choose/" target="_blank">here</a>.</p>
+
+<p>You accept the terms of the contract with your signature on the last page.</p>
+
+<p>Please send the signed form by <strong>e-mail</strong> to <a href="mailto:pharmrxiv@tu-braunschweig.de">pharmrxiv@tu-braunschweig.de</a></p>
+
+<p><strong>Step 2:</strong></p>
+
+<p>Please submit your publication(s) via web form, registration is required.</p>
+
+<p>We formally check your submitted document(s) and publish or archive them on the publication server. You will receive a response by e-mail within one week.</p>
+
+<p> </p>
+
+<p><a name="5_contact"><strong>5. Contact</strong></a></p>
+
+<p>We are happy to assist you with your first and second publications, if you have any questions please contact:</p>
+
+<p> </p>
+
+<p>Mr. Stefan Wulle</p>
+
+<p>E-Mail: <a href="mailto:pharmrxiv@tu-braunschweig.de">pharmrxiv@tu-braunschweig.de</a></p>
+
+<p>Phone: +49 (0)531 391 5003</p>
+</div>
+</div></section><meta><log lastEditor="konlauen" date="2023-03-02" time="12:52" /></meta></MyCoReWebPage>
