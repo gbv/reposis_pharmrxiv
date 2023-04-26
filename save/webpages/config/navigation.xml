@@ -77,7 +77,7 @@
         </item>
     </menu>
     <menu id="topics" dir="/content/topics">
-        <label xml:lang="de">Themengebiete</label>
+        <!-- label xml:lang="de">Themengebiete</label>
         <label xml:lang="en">Topics</label>
         <item href="/content/topics/conferences.xml" type="intern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Konferenzen</label>
@@ -91,7 +91,7 @@
             <label xml:lang="de">etc</label>
             <label xml:lang="en">etc</label>
         </item>
-    </menu>
+    </menu -->
     <menu id="publish" dir="/content/publish">
         <label xml:lang="de">Publizieren</label>
         <label xml:lang="en">Publish</label>
