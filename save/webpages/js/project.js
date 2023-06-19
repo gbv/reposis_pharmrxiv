@@ -32,8 +32,12 @@ $(document).ready(function() {
 
   // replace placeholder USERNAME with username
   var userID = $("#currentUser strong").html();
-  var newHref = 'https://reposis-test.gbv.de/PROJECT/servlets/solr/select?q=createdby:' + userID + '&fq=objectType:mods';
-  $("a[href='https://reposis-test.gbv.de/PROJECT/servlets/solr/select?q=createdby:USERNAME']").attr('href', newHref);
+  var localHref = 'http://localhost:18301/pharmrxiv/servlets/solr/select?q=state%3Asubmitted%20AND%20createdby:' + userID + '&fq=objectType:mods';
+  $("a[href='http://localhost:18301/pharmrxiv/servlets/solr/select?q=state%3Asubmitted%20AND%20createdby:USERNAME']").attr('href', localHref);
+  var testHref = 'https://reposis-test.gbv.de/pharmrxiv/servlets/solr/select?q=state%3Asubmitted%20AND%20createdby:' + userID + '&fq=objectType:mods';
+  $("a[href='https://reposis-test.gbv.de/pharmrxiv/servlets/solr/select?q=state%3Asubmitted%20AND%20createdby:USERNAME']").attr('href', testHref);
+  var prodHref = 'https://pharmrxiv.de/servlets/solr/select?q=state%3Asubmitted%20AND%20createdby:' + userID + '&fq=objectType:mods';
+  $("a[href='https://pharmrxiv.de/servlets/solr/select?q=state%3Asubmitted%20AND%20createdby:USERNAME']").attr('href', prodHref);
 
 });
 
