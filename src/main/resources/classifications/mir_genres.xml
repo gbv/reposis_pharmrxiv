@@ -9,6 +9,12 @@
       <label xml:lang="en" text="Article / Essay" />
       <label xml:lang="x-hosts" text="journal collection proceedings standalone" />
       <label xml:lang="x-mapping" text="marcgt:article diniPublType:article diniPublType2022:Article" />
+      <category ID="preprint">
+        <label xml:lang="de" text="Preprint" />
+        <label xml:lang="en" text="Preprint" />
+        <label xml:lang="x-hosts" text="standalone" />
+        <label xml:lang="x-mapping" text="marcgt:article diniPublType:preprint diniPublType2022:Preprint" />
+      </category>
     </category>
     <category ID="thesis">
       <label xml:lang="de" text="Hochschulschriften" />

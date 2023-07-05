@@ -57,6 +57,10 @@
   <xed:modify ref="genres.lecture">
     <xed:include ref="project.ddc.repeat"                after="sdnb.repeat" />
   </xed:modify>
+
+  <xed:template id="genres.preprint">
+    <xed:include ref="genres.publication.common" />
+  </xed:template>
   
   <!-- ========== pharmarxiv specific templates ========== -->
 
