@@ -78,7 +78,7 @@
       <label xml:lang="x-mapping" text="marcgt:journal diniPublType:Periodical diniPublType2022:Periodical" />
       <category ID="issue">
         <label xml:lang="de" text="Zeitschriftenheft" />
-        <label xml:lang="en" text="Issue" />
+        <label xml:lang="en" text="Journal Issue" />
         <label xml:lang="x-hosts" text="standalone" />
         <label xml:lang="x-mapping" text="marcgt:issue diniPublType:PeriodicalPart diniPublType2022:PeriodicalPart" />
       </category>
