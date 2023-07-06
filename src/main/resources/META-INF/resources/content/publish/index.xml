@@ -30,12 +30,12 @@
 
 <div class="row">
 <div class="col-sm-12 col-md-8">
-<p>Mit der Angabe eines Identifikator besteht die Möglichkeit, die bibliographischen Angaben der Publikation aus den Datenbanken <a href="https://rzblx10.uni-regensburg.de/dbinfo/detail.php?titel_id=3636" title="https://rzblx10.uni-regensburg.de/dbinfo/detail.php?titel_id=3636">Scopus</a>, <a href="https://crossref.org/" title="https://crossref.org/">Crossref</a> und <a href="https://ieeexplore.ieee.org/" title="https://ieeexplore.ieee.org/">IEEE Xplore</a> sowie <a href="https://opac.k10plus.de/" title="https://opac.k10plus.de/">K10plus</a> und <a href="https://zdb-katalog.de/" title="https://zdb-katalog.de/">ZDB</a> in das betreffende Erfassungsformular zu importieren. Hierzu wählen Sie zunächst bitte den betreffenden Identifikator aus und geben diesen ein.</p>
+<p>Mit der Angabe eines Identifikator besteht die Möglichkeit, die bibliographischen Angaben der Publikation aus den Datenbanken <a href="https://crossref.org/" title="https://crossref.org/">Crossref</a> und <a href="https://ieeexplore.ieee.org/" title="https://ieeexplore.ieee.org/">IEEE Xplore</a> sowie <a href="https://opac.k10plus.de/" title="https://opac.k10plus.de/">K10plus</a> und <a href="https://zdb-katalog.de/" title="https://zdb-katalog.de/">ZDB</a> in das betreffende Erfassungsformular zu importieren. Hierzu wählen Sie zunächst bitte den betreffenden Identifikator aus und geben diesen ein.</p>
 </div>
 </div>
 
 <div class="row form-group">
-<div class="col-sm-3 col-lg-2 control-label mb-1 pr-0"><select class="form-control" name="type"><option value="doi">DOI</option><option value="isbn">ISBN</option><option value="ppn">K10plus-PPN</option><option value="scopus">Scopus-ID</option> </select></div>
+<div class="col-sm-3 col-lg-2 control-label mb-1 pr-0"><select class="form-control" name="type"><option title="empty" value="" selected="selected">Keine ID</option><option value="doi">DOI</option><option value="isbn">ISBN</option><option value="ppn">K10plus-PPN</option></select></div>
 
 <div class="col-md-5 col-lg-4 mb-1 pl-0"><input class="form-control" name="modsId" type="text" /></div>
 </div>
@@ -61,12 +61,12 @@
 
 <div class="row">
 <div class="col-sm-12 col-md-8">
-<p>It is possible to import the bibliographic data of the publikaction from the databases <a href="https://rzblx10.uni-regensburg.de/dbinfo/detail.php?titel_id=3636" title="https://rzblx10.uni-regensburg.de/dbinfo/detail.php?titel_id=3636">Scopus</a>, <a href="https://crossref.org/" title="https://crossref.org/">Crossref</a> and <a href="https://ieeexplore.ieee.org/" title="https://ieeexplore.ieee.org/">IEEE Xplore</a> as well as <a href="https://opac.k10plus.de/" title="https://opac.k10plus.de/">K10plus</a> and <a href="https://zdb-katalog.de/" title="https://zdb-katalog.de/">ZDB</a> into the relevant entry form. To do this, please first select the relevant identifier of your contribution and enter it.</p>
+<p>It is possible to import the bibliographic data of the publication from the databases <a href="https://crossref.org/" title="https://crossref.org/">Crossref</a> and <a href="https://ieeexplore.ieee.org/" title="https://ieeexplore.ieee.org/">IEEE Xplore</a> as well as <a href="https://opac.k10plus.de/" title="https://opac.k10plus.de/">K10plus</a> and <a href="https://zdb-katalog.de/" title="https://zdb-katalog.de/">ZDB</a> into the relevant entry form. To do this, please first select the relevant identifier of your contribution and enter it.</p>
 </div>
 </div>
 
 <div class="row form-group">
-<div class="col-sm-3 col-lg-2 control-label mb-1"><select class="form-control" name="type"><option value="doi">DOI</option><option value="isbn">ISBN</option><option value="ppn">K10plus-PPN</option><option value="scopus">Scopus-ID</option> </select></div>
+<div class="col-sm-3 col-lg-2 control-label mb-1"><select class="form-control" name="type"><option title="empty" value="" selected="selected">No ID</option><option value="doi">DOI</option><option value="isbn">ISBN</option><option value="ppn">K10plus-PPN</option></select></div>
 
 <div class="col-md-5 col-lg-4 mb-1 pr-0"><input class="form-control" name="modsId" type="text" /></div>
 </div>
