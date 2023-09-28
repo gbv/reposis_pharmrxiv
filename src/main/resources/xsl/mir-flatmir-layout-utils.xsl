@@ -16,8 +16,8 @@
       <a
         id="project_logo_box"
         class="hidden-xs"
-        href="https://www.tu-braunschweig.de/ub/fachinformationsdienst-pharmazie"
-        title="{i18n:translate('digibib.goToMainSite')}">
+        href="{i18n:translate('project.href.goToMainSite')}"
+        title="{i18n:translate('project.title.goToMainSite')}">
         <img
           src="{$WebApplicationBaseURL}images/logo-fid-pharmazie-500.jpg"
           alt="{i18n:translate('project.logoFidPharmazie')}" />
