@@ -9,7 +9,11 @@
   <xed:modify ref="genres.book.common">
     <xed:include ref="project.ddc.repeat"                after="sdnb.repeat" />
   </xed:modify>
-  
+
+  <xed:modify ref="genres.issue">
+    <xed:include ref="project.ddc.repeat"                after="sdnb.repeat" />
+  </xed:modify>
+
   <xed:modify ref="genres.journal.common">
     <xed:include ref="project.ddc.repeat"                after="sdnb.repeat" />
   </xed:modify>

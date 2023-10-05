@@ -77,7 +77,7 @@
         </item>
     </menu>
     <menu id="topics" dir="/content/topics">
-        <label xml:lang="de">Topic</label>
+        <label xml:lang="de">Topics</label>
         <label xml:lang="en">Topics</label>
         <item href="/content/topics/dphg.xml" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Deutsche Pharmazeutische Gesellschaft - DPhG</label>
