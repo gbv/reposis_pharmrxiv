@@ -15,7 +15,7 @@
     <menu id="below" dir="/content/below">
         <label xml:lang="de">Footer-Menü</label>
         <label xml:lang="en">Footer menu</label>
-        <item href="https://blogs.tu-braunschweig.de/pubpharm/impressum/" type="extern" replaceMenu="false" constrainPopUp="false">
+        <item href="https://www.pubpharm.de/de/info/impressum" type="extern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Impressum</label>
             <label xml:lang="en">Legal Notice</label>
         </item>

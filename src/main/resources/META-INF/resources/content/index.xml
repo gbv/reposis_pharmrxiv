@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MyCoReWebPage>
   <section xml:lang="de" title="Willkommen bei pharmrxiv">
+    <head>
+      <meta name="title" content="pharmrxiv - Fachrepositorium des Fachinformationsdienstes Pharmazie"/>
+      <meta name="description" content="PharmRxiv ist das Fachrepositorium des Fachinformationsdienstes Pharmazie der Universitätsbibliothek Braunschweig" />
+      <meta name="keywords" content="pharm archive, pharmazie archiv, pharmaceutical archive, pharmazeutisches archiv" />
+    </head>
     <div class="jumbotwo" id="bs-index-search" style="margin-top:50px;">
       <div class="row">
         <div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2" lang="de">
@@ -42,6 +47,11 @@
     </script>
   </section>
   <section xml:lang="en" title="Welcome to pharmrxiv">
+    <head>
+      <meta name="title" content="pharmrxiv - specialized repository of the Specialized Information Service Pharmacy"/>
+      <meta name="description" content="PharmRxiv is the specialized repository of the Specialized Information Service Pharmacy of University Library Braunschweig" />
+      <meta name="keywords" content="pharm archive, pharmazie archiv, pharmaceutical archive, pharmazeutisches archiv" />
+    </head>
     <div class="jumbotwo" id="bs-index-search" style="margin-top:50px;">
       <div class="row">
         <div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2" lang="en">
