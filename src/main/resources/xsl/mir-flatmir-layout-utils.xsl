@@ -30,10 +30,10 @@
             <xsl:call-template name="mir.loginMenu" />
           </ul>
         </nav>
-        <a id="ifis" href="http://www.ifis.cs.tu-bs.de/">
+        <a id="ifis" href="https://www.tu-braunschweig.de/ifis">
           <span>ifis</span> | Institut für Informationssysteme
         </a>
-        <a id="ubbs" href="http://www.ub.tu-braunschweig.de/">
+        <a id="ubbs" href="http://www.ub.tu-braunschweig.de">
           Universitätsbibliothek Braunschweig
         </a>
       </div>
