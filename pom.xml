@@ -24,7 +24,7 @@
     <version>2022.06-SNAPSHOT</version>
   </parent>
 
-  <groupId>de.gbv.pharmrxiv</groupId>
+  <groupId>de.gbv.reposis</groupId>
   <artifactId>reposis_pharmrxiv</artifactId>
   <version>2022.06-SNAPSHOT</version>
   <properties>
@@ -51,26 +51,6 @@
       <id>central-portal-snapshots</id>
       <name>Central Portal Snapshots</name>
       <url>https://central.sonatype.com/repository/maven-snapshots/</url>
-    </repository>
-    <repository>
-      <releases>
-        <enabled>false</enabled>
-      </releases>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-      <id>ossrhs01</id>
-      <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
-    </repository>
-    <repository>
-      <releases>
-        <enabled>false</enabled>
-      </releases>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-      <id>ossrh</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
     </repository>
   </repositories>
   <pluginRepositories>
