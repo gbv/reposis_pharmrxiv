@@ -15,11 +15,11 @@
     <menu id="below" dir="/content/below">
         <label xml:lang="de">Footer-Menü</label>
         <label xml:lang="en">Footer menu</label>
-        <item href="https://www.pubpharm.de/de/info/impressum" type="extern" replaceMenu="false" constrainPopUp="false">
+        <item href="https://blogs.tu-braunschweig.de/pubpharm/impressum/" type="extern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Impressum</label>
             <label xml:lang="en">Legal Notice</label>
         </item>
-        <item href="/content/below/contact.xed" type="extern" replaceMenu="false" constrainPopUp="false">
+        <item href="https://www.pubpharm.de/de/kontakt/pharmrxiv-anfrage" type="extern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Kontakt</label>
             <label xml:lang="en">Contact</label>
         </item>
@@ -82,6 +82,10 @@
         <item href="/content/topics/dphg.xml" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Deutsche Pharmazeutische Gesellschaft - DPhG</label>
             <label xml:lang="en">German Pharmaceutical Society - DPhG</label>
+        </item>
+        <item href="/content/topics/fid_pharm.xml" replaceMenu="false" constrainPopUp="false">
+            <label xml:lang="de">Fachinformationsdienst Pharmazie - PubPharm</label>
+            <label xml:lang="en">Fachinformationsdienst Pharmazie - PubPharm</label>
         </item>
     </menu>
     <menu id="publish" dir="/content/publish">
