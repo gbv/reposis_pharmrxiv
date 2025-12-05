@@ -1,48 +1,93 @@
+// replace placeholder USERNAME with username
+function replaceUsernameInLinks() {
+  const linksWithPlaceholder = document.querySelectorAll("a[href*='createdby:USERNAME']");
+  if (linksWithPlaceholder.length === 0) return;
 
-$(document).ready(function() {
+  const userElement = document.querySelector("#currentUser strong");
+  const userId = userElement?.textContent.trim();
 
-  // spam protection for mails
-  $('span.madress').each(function(i) {
-      var text = $(this).text();
-      var address = text.replace(" [at] ", "@");
-      $(this).after('<a href="mailto:'+address+'">'+ address +'</a>')
-      $(this).remove();
+  if (!userId) {
+    console.error("Cannot replace USERNAME: no current user found.");
+    return;
+  }
+
+  linksWithPlaceholder.forEach((link) => {
+    const href = link.getAttribute("href");
+    const newHref = href.replace("USERNAME", encodeURIComponent(userId));
+    link.setAttribute("href", newHref);
   });
+}
 
-  $.cookieBar({
-    fixed: true,
-    message: 'Auf den Seiten von Pharmrxiv werden zur Erhöhung des Bedienungskomforts Cookies verwendet. Mit der Nutzung dieser Seiten erklären Sie, dass Sie die rechtlichen Hinweise gelesen haben und akzeptieren.',
-    acceptText: 'Akzeptieren',
-    policyButton: true,
-    policyText: 'Hinweise zum Datenschutz',
-    policyURL: 'https://www.tu-braunschweig.de/datenschutzerklaerung',
-    expireDays: 1,
-    zindex: '356',
-    domain: 'pharmrxiv.de',
-    referrer: 'pharmrxiv.de'
+// spam protection for mails
+function replaceMaskedEmails() {
+  document.querySelectorAll("span.madress").forEach(span => {
+    const address = span.textContent.replace(" [at] ", "@");
+    const link = document.createElement("a");
+    link.href = `mailto:${address}`;
+    link.textContent = address;
+    span.replaceWith(link);
   });
+}
 
-  // activate empty search on start page
-  $("#project-searchMainPage").submit(function (evt) {
-    $(this).find(":input").filter(function () {
-          return !this.value;
-      }).attr("disabled", true);
-    return true;
+// activate empty search on start page
+function disableEmptyInputsOnSubmit() {
+  const form = document.querySelector("#project-searchMainPage");
+  if (!form) return;
+
+  form.addEventListener("submit", () => {
+    form.querySelectorAll("input").forEach(input => {
+      if (!input.value) input.disabled = true;
+    });
   });
+}
 
-  // replace placeholder USERNAME with username
-  var userID = $("#currentUser strong").html();
-  var localHref = 'http://localhost:18301/pharmrxiv/servlets/solr/select?q=state%3Asubmitted%20AND%20createdby:' + userID + '&fq=objectType:mods';
-  $("a[href='http://localhost:18301/pharmrxiv/servlets/solr/select?q=state%3Asubmitted%20AND%20createdby:USERNAME']").attr('href', localHref);
-  var testHref = 'https://reposis-test.gbv.de/pharmrxiv/servlets/solr/select?q=state%3Asubmitted%20AND%20createdby:' + userID + '&fq=objectType:mods';
-  $("a[href='https://reposis-test.gbv.de/pharmrxiv/servlets/solr/select?q=state%3Asubmitted%20AND%20createdby:USERNAME']").attr('href', testHref);
-  var prodHref = 'https://pharmrxiv.de/servlets/solr/select?q=state%3Asubmitted%20AND%20createdby:' + userID + '&fq=objectType:mods';
-  $("a[href='https://pharmrxiv.de/servlets/solr/select?q=state%3Asubmitted%20AND%20createdby:USERNAME']").attr('href', prodHref);
+function removeGenreOptions(values) {
+  const select = document.querySelector("select#genre");
+  if (!select) {
+    return;
+  }
+  Array.from(select.options).forEach(option => {
+    if (values.includes(option.value)) {
+      option.remove();
+    }
+  });
+}
 
-});
+function setupGenreObserver(values) {
+  const observer = new MutationObserver(() => {
+    removeGenreOptions(values);
+  });
+  observer.observe(document.body, {childList: true, subtree: true});
+  return observer;
+}
 
-$( document ).ajaxComplete(function() {
-  // remove series and journal as option from publish/index.xml
-  $("select#genre option[value='series']").remove();
-  $("select#genre option[value='journal']").remove();
-});
+function initCookieBar() {
+  if (window.jQuery && typeof $.cookieBar === "function") {
+    $.cookieBar({
+      fixed: true,
+      message: "Auf den Seiten von Pharmrxiv werden zur Erhöhung des Bedienungskomforts Cookies verwendet. Mit der Nutzung dieser Seiten erklären Sie, dass Sie die rechtlichen Hinweise gelesen haben und akzeptieren.",
+      acceptText: "Akzeptieren",
+      policyButton: true,
+      policyText: "Hinweise zum Datenschutz",
+      policyURL: "https://www.tu-braunschweig.de/datenschutzerklaerung",
+      expireDays: 1,
+      zindex: 356,
+      domain: "pharmrxiv.de",
+      referrer: "pharmrxiv.de"
+    });
+  } else {
+    console.warn("CookieBar plugin not found: skipping cookie bar initialization.");
+  }
+}
+
+function initPage() {
+  const genresToRemove = ["series", "journal"];
+  setupGenreObserver(genresToRemove);
+  replaceUsernameInLinks();
+  replaceMaskedEmails();
+  disableEmptyInputsOnSubmit();
+  removeGenreOptions(genresToRemove);
+  initCookieBar();
+}
+
+document.addEventListener("DOMContentLoaded", initPage);
