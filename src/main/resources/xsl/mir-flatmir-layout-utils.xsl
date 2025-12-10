@@ -122,18 +122,18 @@
 
   <xsl:template name="project.generate_single_menu_entry">
     <xsl:param name="menuID" />
-    <li class="nav-item">
-      <xsl:variable name="menuItemHref" select="$loaded_navigation_xml/menu[@id=$menuID]/item/@href" />
-      <xsl:variable name="activeClass">
-        <xsl:choose>
-          <xsl:when test="$menuItemHref = $browserAddress">
-            <xsl:text>active</xsl:text>
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:text>not-active</xsl:text>
-          </xsl:otherwise>
-        </xsl:choose>
-      </xsl:variable>
+    <xsl:variable name="menuItemHref" select="$loaded_navigation_xml/menu[@id=$menuID]/item/@href" />
+    <xsl:variable name="activeClass">
+      <xsl:choose>
+        <xsl:when test="$menuItemHref = $browserAddress">
+          <xsl:text>active</xsl:text>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:text>not-active</xsl:text>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+    <li class="nav-item {$activeClass}">
       <xsl:variable name="fullUrl">
         <!-- assumes that $WebApplicationBaseURL ends with '/' -->
         <xsl:choose>
@@ -151,7 +151,7 @@
           </xsl:otherwise>
         </xsl:choose>
       </xsl:variable>
-      <a id="{$menuID}" href="{$fullUrl}" class="nav-link {$activeClass}">
+      <a id="{$menuID}" href="{$fullUrl}" class="nav-link">
         <xsl:apply-templates select="$loaded_navigation_xml/menu[@id=$menuID]/item" mode="linkText" />
       </a>
     </li>
