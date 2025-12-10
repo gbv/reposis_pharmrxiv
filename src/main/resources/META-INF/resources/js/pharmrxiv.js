@@ -1,23 +1,3 @@
-// replace placeholder USERNAME with username
-function replaceUsernameInLinks() {
-  const linksWithPlaceholder = document.querySelectorAll("a[href*='createdby:USERNAME']");
-  if (linksWithPlaceholder.length === 0) return;
-
-  const userElement = document.querySelector("#currentUser strong");
-  const userId = userElement?.textContent.trim();
-
-  if (!userId) {
-    console.error("Cannot replace USERNAME: no current user found.");
-    return;
-  }
-
-  linksWithPlaceholder.forEach((link) => {
-    const href = link.getAttribute("href");
-    const newHref = href.replace("USERNAME", encodeURIComponent(userId));
-    link.setAttribute("href", newHref);
-  });
-}
-
 // spam protection for mails
 function replaceMaskedEmails() {
   document.querySelectorAll("span.madress").forEach(span => {
@@ -83,7 +63,6 @@ function initCookieBar() {
 function initPage() {
   const genresToRemove = ["series", "journal"];
   setupGenreObserver(genresToRemove);
-  replaceUsernameInLinks();
   replaceMaskedEmails();
   disableEmptyInputsOnSubmit();
   removeGenreOptions(genresToRemove);
