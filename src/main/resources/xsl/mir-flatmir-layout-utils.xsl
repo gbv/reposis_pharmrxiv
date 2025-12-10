@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0"
+<xsl:stylesheet
+    version="1.0"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:i18n="xalan://org.mycore.services.i18n.MCRTranslation"
     xmlns:mcrver="xalan://org.mycore.common.MCRCoreVersion"
@@ -10,9 +11,7 @@
   <xsl:param name="piwikID" select="'0'" />
 
   <xsl:template name="mir.navigation">
-
     <div id="header_box" class="clearfix container">
-
       <a
         id="project_logo_box"
         class="hidden-xs"
@@ -22,7 +21,6 @@
           src="{$WebApplicationBaseURL}images/logo-fid-pharmazie-500.jpg"
           alt="{i18n:translate('project.logoFidPharmazie')}" />
       </a>
-
       <div id="options_nav_box" class="mir-prop-nav">
         <nav>
           <ul class="navbar-nav ml-auto flex-row flex-row-reverse">
@@ -38,11 +36,9 @@
         </a>
       </div>
     </div>
-
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="mir-main-nav bg-primary">
       <div class="container">
-
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
           <button
             class="navbar-toggler"
@@ -54,7 +50,6 @@
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-
           <div id="mir-main-nav-collapse-box" class="collapse navbar-collapse mir-main-nav__entries">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
               <xsl:call-template name="project.generate_single_menu_entry">
@@ -66,7 +61,6 @@
               <xsl:call-template name="mir.basketMenu" />
             </ul>
           </div>
-
           <form
             action="{$WebApplicationBaseURL}servlets/solr/find"
             class="bs-search form-inline searchfield_box"
@@ -90,11 +84,9 @@
               <i class="fas fa-search"></i>
             </button>
           </form>
-
         </nav>
       </div>
     </div>
-
     <div id="digibib_feedback">
       <a href="mailto:digibib@tu-braunschweig.de">Feedback</a>
     </div>
@@ -116,7 +108,11 @@
           <xsl:variable name="mcr_version" select="concat('MyCoRe ',mcrver:getCompleteVersion())" />
           <div id="powered_by">
             <a id="mycore_logo" href="http://www.mycore.de">
-              <img src="{$WebApplicationBaseURL}mir-layout/images/mycore_logo_powered_120x30_blaue_schrift_frei.png" title="{$mcr_version}" alt="powered by MyCoRe" />
+              <img
+                src="{$WebApplicationBaseURL}mir-layout/images/mycore_logo_powered_120x30_blaue_schrift_frei.png"
+                title="{$mcr_version}"
+                alt="powered by MyCoRe"
+              />
             </a>
           </div>
         </div>
@@ -126,29 +122,37 @@
 
   <xsl:template name="project.generate_single_menu_entry">
     <xsl:param name="menuID" />
-
-    <xsl:variable name="activeClass">
-      <xsl:choose>
-        <xsl:when test="$loaded_navigation_xml/menu[@id=$menuID]/item[@href = $browserAddress ]">
-        <xsl:text>active</xsl:text>
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:text>not-active</xsl:text>
-        </xsl:otherwise>
-      </xsl:choose>
-    </xsl:variable>
-
-    <li class="nav-item {$activeClass}">
-
-      <a id="{$menuID}" href="{$WebApplicationBaseURL}{$loaded_navigation_xml/menu[@id=$menuID]/item/@href}" class="nav-link" >
+    <li class="nav-item">
+      <xsl:variable name="menuItemHref" select="$loaded_navigation_xml/menu[@id=$menuID]/item/@href" />
+      <xsl:variable name="activeClass">
         <xsl:choose>
-          <xsl:when test="$loaded_navigation_xml/menu[@id=$menuID]/item/label[lang($CurrentLang)] != ''">
-            <xsl:value-of select="$loaded_navigation_xml/menu[@id=$menuID]/item/label[lang($CurrentLang)]" />
+          <xsl:when test="$menuItemHref = $browserAddress">
+            <xsl:text>active</xsl:text>
           </xsl:when>
           <xsl:otherwise>
-            <xsl:value-of select="$loaded_navigation_xml/menu[@id=$menuID]/item/label[lang($DefaultLang)]" />
+            <xsl:text>not-active</xsl:text>
           </xsl:otherwise>
         </xsl:choose>
+      </xsl:variable>
+      <xsl:variable name="fullUrl">
+        <!-- assumes that $WebApplicationBaseURL ends with '/' -->
+        <xsl:choose>
+          <xsl:when test="starts-with($menuItemHref,'http:')
+                    or starts-with($menuItemHref,'https:')
+                    or starts-with($menuItemHref,'mailto:')
+                    or starts-with($menuItemHref,'ftp:')">
+            <xsl:value-of select="$menuItemHref" />
+          </xsl:when>
+          <xsl:when test="starts-with($menuItemHref,'/')">
+            <xsl:value-of select="concat($WebApplicationBaseURL, substring-after($menuItemHref,'/'))" />
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="concat($WebApplicationBaseURL, $menuItemHref)" />
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:variable>
+      <a id="{$menuID}" href="{$fullUrl}" class="nav-link {$activeClass}">
+        <xsl:apply-templates select="$loaded_navigation_xml/menu[@id=$menuID]/item" mode="linkText" />
       </a>
     </li>
   </xsl:template>
