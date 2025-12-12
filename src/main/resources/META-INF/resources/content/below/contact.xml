@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE MyCoReWebPage>
 <MyCoReWebPage>
-    <section xml:lang="de" title="Kontakt">
-        <div class="row">
-            <div class="col-md-12" lang="de">
-                <h2>Kontakt</h2>
-                <p>
-                    <strong>Institution</strong>
-                    <br/>
-                    Name
-                    <br/>
-                    E-Mail:
-                    <span class="madress">name [at] beispiel.de</span>
-                    <br/>
-                    Telefon: +49 00 00 00 00
-                </p>
-            </div>
-        </div>
-
-    </section>
+  <section xml:lang="de" title="Kontakt">
+    <h1>Kontakt</h1>
+    <contact_form />
+  </section>
+  <section xml:lang="en" title="Contact">
+    <h1>Contact</h1>
+    <contact_form />
+  </section>
 </MyCoReWebPage>
