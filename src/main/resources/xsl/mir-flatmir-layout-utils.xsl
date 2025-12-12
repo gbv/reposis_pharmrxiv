@@ -85,7 +85,7 @@
         </nav>
       </div>
     </div>
-    <div id="digibib_feedback">
+    <div id="pharmrxiv_feedback">
       <a href="mailto:pharmrxiv@tu-braunschweig.de">Feedback</a>
     </div>
   </xsl:template>
