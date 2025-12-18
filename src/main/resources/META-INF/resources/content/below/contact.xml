@@ -3,10 +3,10 @@
 <MyCoReWebPage>
   <section xml:lang="de" title="Kontakt">
     <h1>Kontakt</h1>
-    <contact_form />
+    <contact-form />
   </section>
   <section xml:lang="en" title="Contact">
     <h1>Contact</h1>
-    <contact_form />
+    <contact-form />
   </section>
 </MyCoReWebPage>
