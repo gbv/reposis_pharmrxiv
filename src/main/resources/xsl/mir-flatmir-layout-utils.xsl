@@ -4,10 +4,6 @@
   <xsl:import href="resource:xsl/layout/mir-common-layout.xsl" />
   <xsl:param name="piwikID" select="'0'" />
 
-  <xsl:variable name="isGuest" select="$CurrentUser='guest'" />
-  <xsl:variable name="isAdmin" select="document('userobjectrights:isCurrentUserInRole:admin')/boolean='true'" />
-  <xsl:variable name="isEditor" select="document('userobjectrights:isCurrentUserInRole:editor')/boolean='true'" />
-
   <xsl:template name="mir.navigation">
     <div id="header_box" class="clearfix container">
       <a
@@ -71,10 +67,10 @@
               type="text"
               aria-label="Search" />
             <xsl:choose>
-              <xsl:when test="$isAdmin or $isEditor">
+              <xsl:when test="contains($isSearchAllowedForCurrentUser, 'true')">
                 <input name="owner" type="hidden" value="createdby:*" />
               </xsl:when>
-              <xsl:when test="not($isGuest)">
+              <xsl:when test="not($CurrentUser='guest')">
                 <input name="owner" type="hidden" value="createdby:{$CurrentUser}" />
               </xsl:when>
             </xsl:choose>
