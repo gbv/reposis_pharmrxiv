@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
+  <xsl:template match="main-search-form">
+    <form
+      role="search"
+      id="project-searchMainPage"
+      class="form-inline mt-3"
+      action="../servlets/solr/find"
+    >
+      <div class="input-group w-100">
+        <input
+          name="condQuery"
+          placeholder="{document('i18n:project.main_search_form.placeholder')/i18n/text()}"
+          class="form-control search-query"
+          id="project-searchInput"
+          type="text"
+          aria-label=""
+          aria-describedby="" />
+        <div class="input-group-append">
+          <button type="submit" class="btn text-primary bg-white">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+      </div>
+    </form>
+  </xsl:template>
+
   <xsl:template match="contact-form">
     <form
       role="form"
