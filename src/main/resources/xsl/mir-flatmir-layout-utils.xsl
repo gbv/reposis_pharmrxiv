@@ -47,7 +47,7 @@
           <div id="mir-main-nav-collapse-box" class="collapse navbar-collapse mir-main-nav__entries">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
               <xsl:call-template name="project.generate_single_menu_entry">
-                <xsl:with-param name="menuID" select="'brand'"/>
+                <xsl:with-param name="menuID" select="'brand'" />
               </xsl:call-template>
               <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='search']" />
               <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='topics']" />
@@ -147,26 +147,26 @@
                       or starts-with($link,'https:')
                       or starts-with($link,'mailto:')
                       or starts-with($link,'ftp:')">
-        <xsl:value-of select="$link"/>
+        <xsl:value-of select="$link" />
       </xsl:when>
       <xsl:when test="starts-with($link,'/')">
         <xsl:choose>
           <xsl:when test="substring($appBaseUrl, string-length($appBaseUrl), 1) = '/'">
             <xsl:value-of
-              select="concat(substring($appBaseUrl, 1, string-length($appBaseUrl) - 1), $link)"/>
+              select="concat(substring($appBaseUrl, 1, string-length($appBaseUrl) - 1), $link)" />
           </xsl:when>
           <xsl:otherwise>
-            <xsl:value-of select="concat($appBaseUrl, $link)"/>
+            <xsl:value-of select="concat($appBaseUrl, $link)" />
           </xsl:otherwise>
         </xsl:choose>
       </xsl:when>
       <xsl:otherwise>
         <xsl:choose>
           <xsl:when test="substring($appBaseUrl, string-length($appBaseUrl), 1) = '/'">
-            <xsl:value-of select="concat($appBaseUrl, $link)"/>
+            <xsl:value-of select="concat($appBaseUrl, $link)" />
           </xsl:when>
           <xsl:otherwise>
-            <xsl:value-of select="concat($appBaseUrl, '/', $link)"/>
+            <xsl:value-of select="concat($appBaseUrl, '/', $link)" />
           </xsl:otherwise>
         </xsl:choose>
       </xsl:otherwise>
