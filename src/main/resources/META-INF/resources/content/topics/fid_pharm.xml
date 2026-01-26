@@ -1,12 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage><section xml:lang="de" title="FID"><p><img alt="" src="../folder/Logo_Final_cropped.png" style="width: 450px; height: 200px;" /></p><p> </p><p>Videos und Tutorials des Fachinformationsdienstes (FID) Pharmazie auf pharmRxiv können Sie <a href="https://pharmrxiv.de/servlets/solr/select?q=%2BallMeta%3AFachinformationsdienst+%2Bcategory.top%3A%22mir_genres%5C%3Avideo%22+%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed">hier abrufen</a>.</p><p>Hier finden Sie Publikationen des FID Pharmazie:</p><ul>
-	<li><a href="https://pharmrxiv.de/receive/pharmrxiv_mods_00011240">Neue PubPharm-Tools: Gezielter suchen, Überblick gewinnen</a> (Krankenhauspharmazie, Jahrgang 44, Heft 1, 2023)</li>
-	<li><a href="https://pharmrxiv.de/receive/pharmrxiv_mods_00011236">PubPharm – Gemeinsam von der informationswissenschaftlichen Grundlagenforschung zum nachhaltigen Service : PubPharm – A collaborative effort to create a sustainable service</a> (ABI Technik, Band 39, Heft 4, 2019)</li>
-	<li><a href="https://pharmrxiv.de/receive/pharmrxiv_mods_00011242">PubPharm – die Rechercheplattform : Literatursuche und Arzneimittelinformation</a> (PZ-Prisma, Jahrgang 26, Ausgabe 2, 2019)</li>
-	<li><a href="https://pharmrxiv.de/receive/pharmrxiv_mods_00011238">PubPharm – Der Fachinformationsdienst Pharmazie : PubPharm – the Specialised Information Service Pharmacy</a> (Pharmakon, Jahrgang 6, Ausgabe 4, 2018)</li>
-</ul><p> </p><p>Weitere Publikationen finden Sie <a href="https://www.tu-braunschweig.de/ub/fachinformationsdienst-pharmazie" target="_blank">hier</a> .</p></section><section xml:lang="en" title="FID"><p><img alt="" src="../folder/Logo_Final_cropped.png" style="width: 450px; height: 200px;" /></p><p> </p><p>You can access videos and tutorials from the Fachinformationsdienst (FID) Pharmazie on pharmRxiv <a href="https://pharmrxiv.de/servlets/solr/select?q=%2BallMeta%3AFachinformationsdienst+%2Bcategory.top%3A%22mir_genres%5C%3Avideo%22+%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed">here</a>.</p><p>You can find publications from the FID Pharmazie here:</p><ul>
-	<li><a href="https://pharmrxiv.de/receive/pharmrxiv_mods_00011240">Neue PubPharm-Tools: Gezielter suchen, Überblick gewinnen</a> (Krankenhauspharmazie, Volume 44, Issue 1, 2023)</li>
-	<li><a href="https://pharmrxiv.de/receive/pharmrxiv_mods_00011236">PubPharm – Gemeinsam von der informationswissenschaftlichen Grundlagenforschung zum nachhaltigen Service : PubPharm – A collaborative effort to create a sustainable service</a> (ABI Technik, Volume 39, Issue 4, 2019)</li>
-	<li><a href="https://pharmrxiv.de/receive/pharmrxiv_mods_00011242">PubPharm – die Rechercheplattform : Literatursuche und Arzneimittelinformation</a> (PZ-Prisma, Volume 26, Issue 2, 2019)</li>
-	<li><a href="https://pharmrxiv.de/receive/pharmrxiv_mods_00011238">PubPharm – Der Fachinformationsdienst Pharmazie : PubPharm – the Specialised Information Service Pharmacy</a> (Pharmakon, Volume 6, Issue 4, 2018)</li>
-</ul><p> </p><p>More publications are <a href="https://www.tu-braunschweig.de/ub/fachinformationsdienst-pharmazie" target="_blank">here</a> .</p></section><meta><log lastEditor="fid_pharm" date="2024-12-20" time="10:47" /></meta></MyCoReWebPage>
+<MyCoReWebPage>
+  <section xml:lang="de" title="FID">
+    <p>
+      <img alt="" src="../folder/Logo_Final_cropped.png" style="width: 450px; height: 200px;" />
+    </p>
+    <p> </p>
+    <p>Videos und Tutorials des Fachinformationsdienstes (FID) Pharmazie auf pharmRxiv können
+      Sie <a href="https://pharmrxiv.de/servlets/solr/select?q=%2BallMeta%3AFachinformationsdienst+%2Bcategory.top%3A%22mir_genres%5C%3Avideo%22+%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed">
+        hier abrufen</a>.
+    </p>
+    <p>Hier finden Sie Publikationen des FID Pharmazie:</p>
+    <ul>
+      <li>
+        <a href="https://pharmrxiv.de/receive/pharmrxiv_mods_00011240">Neue PubPharm-Tools: Gezielter suchen, Überblick gewinnen</a>
+        (Krankenhauspharmazie, Jahrgang 44, Heft 1, 2023)
+      </li>
+      <li>
+        <a href="https://pharmrxiv.de/receive/pharmrxiv_mods_00011236">PubPharm – Gemeinsam von der informationswissenschaftlichen Grundlagenforschung zum nachhaltigen Service : PubPharm – A
+          collaborative effort to create a sustainable service
+        </a>
+        (ABI Technik, Band 39, Heft 4, 2019)
+      </li>
+      <li>
+        <a href="https://pharmrxiv.de/receive/pharmrxiv_mods_00011242">PubPharm – die Rechercheplattform : Literatursuche und Arzneimittelinformation</a>
+        (PZ-Prisma, Jahrgang 26, Ausgabe 2, 2019)
+      </li>
+      <li>
+        <a href="https://pharmrxiv.de/receive/pharmrxiv_mods_00011238">PubPharm – Der Fachinformationsdienst Pharmazie : PubPharm – the Specialised Information Service Pharmacy</a>
+        (Pharmakon, Jahrgang 6, Ausgabe 4, 2018)
+      </li>
+    </ul>
+    <p> </p>
+    <p>Weitere Publikationen finden Sie <a href="https://www.tu-braunschweig.de/ub/fachinformationsdienst-pharmazie" target="_blank">hier</a> .
+    </p>
+  </section>
+  <section xml:lang="en" title="FID">
+    <p>
+      <img alt="" src="../folder/Logo_Final_cropped.png" style="width: 450px; height: 200px;" />
+    </p>
+    <p> </p>
+    <p>You can access videos and tutorials from the Fachinformationsdienst (FID) Pharmazie on
+      pharmRxiv <a href="https://pharmrxiv.de/servlets/solr/select?q=%2BallMeta%3AFachinformationsdienst+%2Bcategory.top%3A%22mir_genres%5C%3Avideo%22+%2BobjectType%3A%22mods%22&amp;fl=*&amp;sort=mods.dateIssued+desc&amp;rows=20&amp;version=4.5&amp;mask=content%2Fsearch%2Fcomplex_intern.xed">
+        here</a>.
+    </p>
+    <p>You can find publications from the FID Pharmazie here:</p>
+    <ul>
+      <li>
+        <a href="https://pharmrxiv.de/receive/pharmrxiv_mods_00011240">Neue PubPharm-Tools: Gezielter suchen, Überblick gewinnen</a>
+        (Krankenhauspharmazie, Volume 44, Issue 1, 2023)
+      </li>
+      <li>
+        <a href="https://pharmrxiv.de/receive/pharmrxiv_mods_00011236">PubPharm – Gemeinsam von der informationswissenschaftlichen Grundlagenforschung zum nachhaltigen Service : PubPharm – A
+          collaborative effort to create a sustainable service
+        </a>
+        (ABI Technik, Volume 39, Issue 4, 2019)
+      </li>
+      <li>
+        <a href="https://pharmrxiv.de/receive/pharmrxiv_mods_00011242">PubPharm – die Rechercheplattform : Literatursuche und Arzneimittelinformation</a>
+        (PZ-Prisma, Volume 26, Issue 2, 2019)
+      </li>
+      <li>
+        <a href="https://pharmrxiv.de/receive/pharmrxiv_mods_00011238">PubPharm – Der Fachinformationsdienst Pharmazie : PubPharm – the Specialised Information Service Pharmacy</a>
+        (Pharmakon, Volume 6, Issue 4, 2018)
+      </li>
+    </ul>
+    <p> </p>
+    <p>More publications are <a href="https://www.tu-braunschweig.de/ub/fachinformationsdienst-pharmazie" target="_blank">here</a> .
+    </p>
+  </section>
+  <meta>
+    <log lastEditor="fid_pharm" date="2024-12-20" time="10:47" />
+  </meta>
+</MyCoReWebPage>
