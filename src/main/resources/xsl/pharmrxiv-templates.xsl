@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet version="1.0"
+  xmlns:mcri18n="xalan://org.mycore.services.i18n.MCRTranslation"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  exclude-result-prefixes="mcri18n">
 
   <xsl:template match="main-search-form">
     <form
@@ -11,12 +14,10 @@
       <div class="input-group w-100">
         <input
           name="condQuery"
-          placeholder="{document('i18n:project.main_search_form.placeholder')/i18n/text()}"
+          placeholder="{mcri18n:translate('project.index_search.placeholder.default')}"
           class="form-control search-query"
           id="project-searchInput"
-          type="text"
-          aria-label=""
-          aria-describedby="" />
+          type="text" />
         <div class="input-group-append">
           <button type="submit" class="btn text-primary bg-white">
             <i class="fas fa-search"></i>
@@ -35,7 +36,7 @@
       enctype="multipart/form-data">
       <div class="form-group">
         <label for="inputMessage">
-          <xsl:value-of select="document('i18n:project.contact_form.message')/i18n/text()" />
+          <xsl:value-of select="mcri18n:translate('project.contact_form.message')" />
         </label>
         <textarea
           id="inputMessage"
@@ -47,7 +48,7 @@
       </div>
       <div class="form-group">
         <label for="inputEmail">
-          <xsl:value-of select="document('i18n:project.contact_form.email')/i18n/text()" />
+          <xsl:value-of select="mcri18n:translate('project.contact_form.email')" />
         </label>
         <input
           type="email"
@@ -58,7 +59,7 @@
       </div>
       <div class="form-group">
         <label for="inputName">
-          <xsl:value-of select="document('i18n:project.contact_form.name')/i18n/text()" />
+          <xsl:value-of select="mcri18n:translate('project.contact_form.name')" />
         </label>
         <input
           type="text"
@@ -69,7 +70,7 @@
       <div class="form-row">
         <div class="col-md">
           <label for="captcha-input">
-            <xsl:value-of select="document('i18n:project.contact_form.captcha')/i18n/text()" />
+            <xsl:value-of select="mcri18n:translate('project.contact_form.captcha')" />
           </label>
           <div class="d-flex align-items-center">
             <img
@@ -106,7 +107,7 @@
         </div>
       </div>
       <button id="save" class="btn btn-info" type="submit">
-        <xsl:value-of select="document('i18n:project.contact_form.submit')/i18n/text()" />
+        <xsl:value-of select="mcri18n:translate('project.contact_form.submit')" />
       </button>
     </form>
     <script>

@@ -9,16 +9,25 @@ function replaceMaskedEmails() {
   });
 }
 
-// activate empty search on start page
-function disableEmptyInputsOnSubmit() {
-  const form = document.querySelector("#project-searchMainPage");
-  if (!form) return;
-
-  form.addEventListener("submit", () => {
-    form.querySelectorAll("input").forEach(input => {
-      if (!input.value) input.disabled = true;
-    });
+function ignoreEmptyFieldsOnSubmit(event) {
+  const form = event.currentTarget;
+  const inputs = form.querySelectorAll('input');
+  inputs.forEach(input => {
+    if (!input.value) {
+      input.dataset.nameBackup = input.name;
+      input.removeAttribute('name');
+    }
   });
+  // Restore field names after the form is submitted
+  // setTimeout ensures this runs after the submit event completes
+  setTimeout(() => {
+    inputs.forEach(input => {
+      if (input.dataset.nameBackup) {
+        input.name = input.dataset.nameBackup;
+        delete input.dataset.nameBackup;
+      }
+    });
+  }, 0);
 }
 
 function removeGenreOptions(values) {
@@ -64,7 +73,6 @@ function initPage() {
   const genresToRemove = ["series", "journal"];
   setupGenreObserver(genresToRemove);
   replaceMaskedEmails();
-  disableEmptyInputsOnSubmit();
   removeGenreOptions(genresToRemove);
   initCookieBar();
 }
