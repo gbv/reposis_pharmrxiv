@@ -31,7 +31,7 @@
           <span>ifis</span>
           | Institut für Informationssysteme
         </a>
-        <a id="ubbs" href="http://www.ub.tu-braunschweig.de">
+        <a id="ubbs" href="https://www.ub.tu-braunschweig.de">
           Universitätsbibliothek Braunschweig
         </a>
       </div>
