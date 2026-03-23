@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MyCoReWebPage>
+  <section xml:lang="de" title="FID">
+    <p>
+      <img alt="" src="Logo_Final_cropped.png" style="width: 450px; height: 200px;" />
+    </p>
+    <p> </p>
+    <p>Hier finden Sie Publikationen des Fachinformationsdienstes (FID) Pharmazie:</p>
+    <ul>
+      <li>
+        <a href="https://pharmrxiv.de/receive/pharmrxiv_mods_00011240">Neue PubPharm-Tools: Gezielter suchen, Überblick gewinnen</a>
+      </li>
+      <li>
+        <a href="https://pharmrxiv.de/receive/pharmrxiv_mods_00011236">PubPharm – Gemeinsam von der informationswissenschaftlichen Grundlagenforschung zum nachhaltigen Service : PubPharm – A
+          collaborative effort to create a sustainable service
+        </a>
+      </li>
+      <li>
+        <a href="https://pharmrxiv.de/receive/pharmrxiv_mods_00011242">PubPharm – die Rechercheplattform : Literatursuche und Arzneimittelinformation</a>
+      </li>
+      <li>
+        <a href="https://pharmrxiv.de/receive/pharmrxiv_mods_00011238">PubPharm – Der Fachinformationsdienst Pharmazie : PubPharm – the Specialised Information Service Pharmacy</a>
+      </li>
+    </ul>
+    <p> </p>
+    <p>Weitere Publikationen finden Sie <a href="https://www.tu-braunschweig.de/ub/fachinformationsdienst-pharmazie" target="_blank">hier</a>.
+    </p>
+  </section>
+  <section xml:lang="en" title="FID">
+    <p>
+      <img alt="" src="Logo_Final_cropped.png" style="width: 450px; height: 200px;" />
+    </p>
+    <p> </p>
+    <p>You can find publications from the Fachinformationsdienstes (FID) Pharmazie here:</p>
+    <ul>
+      <li>
+        <a href="https://pharmrxiv.de/receive/pharmrxiv_mods_00011240">Neue PubPharm-Tools: Gezielter suchen, Überblick gewinnen</a>
+      </li>
+      <li>
+        <a href="https://pharmrxiv.de/receive/pharmrxiv_mods_00011236">PubPharm – Gemeinsam von der informationswissenschaftlichen Grundlagenforschung zum nachhaltigen Service : PubPharm – A
+          collaborative effort to create a sustainable service
+        </a>
+      </li>
+      <li>
+        <a href="https://pharmrxiv.de/receive/pharmrxiv_mods_00011242">PubPharm – die Rechercheplattform : Literatursuche und Arzneimittelinformation</a>
+      </li>
+      <li>
+        <a href="https://pharmrxiv.de/receive/pharmrxiv_mods_00011238">PubPharm – Der Fachinformationsdienst Pharmazie : PubPharm – the Specialised Information Service Pharmacy</a>
+      </li>
+    </ul>
+    <p> </p>
+    <p>More publications are <a href="https://www.tu-braunschweig.de/ub/fachinformationsdienst-pharmazie" target="_blank">here</a>.
+    </p>
+  </section>
+  <meta>
+    <log lastEditor="konlauen" date="2024-04-15" time="11:48" />
+  </meta>
+</MyCoReWebPage>

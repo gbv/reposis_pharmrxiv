@@ -1,28 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0"
-    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:i18n="xalan://org.mycore.services.i18n.MCRTranslation"
-    xmlns:mcrver="xalan://org.mycore.common.MCRCoreVersion"
-    xmlns:mcrxsl="xalan://org.mycore.common.xml.MCRXMLFunctions"
-    exclude-result-prefixes="i18n mcrver mcrxsl">
+  xmlns:mcracl="xalan://org.mycore.common.xml.MCRXMLFunctions"
+  xmlns:mcri18n="xalan://org.mycore.services.i18n.MCRTranslation"
+  xmlns:mcrversion="xalan://org.mycore.common.MCRCoreVersion"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  exclude-result-prefixes="mcracl mcri18n mcrversion">
 
   <xsl:import href="resource:xsl/layout/mir-common-layout.xsl" />
   <xsl:param name="piwikID" select="'0'" />
 
   <xsl:template name="mir.navigation">
-
     <div id="header_box" class="clearfix container">
-
       <a
         id="project_logo_box"
         class="hidden-xs"
-        href="{i18n:translate('project.href.goToMainSite')}"
-        title="{i18n:translate('project.title.goToMainSite')}">
+        href="{mcri18n:translate('project.href.goToMainSite')}"
+        title="{mcri18n:translate('project.title.goToMainSite')}">
         <img
           src="{$WebApplicationBaseURL}images/logo-fid-pharmazie-500.jpg"
-          alt="{i18n:translate('project.logoFidPharmazie')}" />
+          alt="{mcri18n:translate('project.logoFidPharmazie')}" />
       </a>
-
       <div id="options_nav_box" class="mir-prop-nav">
         <nav>
           <ul class="navbar-nav ml-auto flex-row flex-row-reverse">
@@ -30,19 +27,18 @@
             <xsl:call-template name="mir.loginMenu" />
           </ul>
         </nav>
-        <a id="ifis" href="http://www.ifis.cs.tu-bs.de/">
-          <span>ifis</span> | Institut für Informationssysteme
+        <a id="ifis" href="https://www.tu-braunschweig.de/ifis">
+          <span>ifis</span>
+          | Institut für Informationssysteme
         </a>
-        <a id="ubbs" href="http://www.ub.tu-braunschweig.de/">
+        <a id="ubbs" href="https://www.ub.tu-braunschweig.de">
           Universitätsbibliothek Braunschweig
         </a>
       </div>
     </div>
-
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="mir-main-nav bg-primary">
       <div class="container">
-
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
           <button
             class="navbar-toggler"
@@ -54,11 +50,10 @@
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-
           <div id="mir-main-nav-collapse-box" class="collapse navbar-collapse mir-main-nav__entries">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
               <xsl:call-template name="project.generate_single_menu_entry">
-                <xsl:with-param name="menuID" select="'brand'"/>
+                <xsl:with-param name="menuID" select="'brand'" />
               </xsl:call-template>
               <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='search']" />
               <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='topics']" />
@@ -66,14 +61,13 @@
               <xsl:call-template name="mir.basketMenu" />
             </ul>
           </div>
-
           <form
             action="{$WebApplicationBaseURL}servlets/solr/find"
             class="bs-search form-inline searchfield_box"
             role="search">
             <input
               name="condQuery"
-              placeholder="{i18n:translate('mir.navsearch.placeholder')}"
+              placeholder="{mcri18n:translate('mir.navsearch.placeholder')}"
               class="form-control mr-sm-2 search-query"
               id="searchInput"
               type="text"
@@ -82,7 +76,7 @@
               <xsl:when test="contains($isSearchAllowedForCurrentUser, 'true')">
                 <input name="owner" type="hidden" value="createdby:*" />
               </xsl:when>
-              <xsl:when test="not(mcrxsl:isCurrentUserGuestUser())">
+              <xsl:when test="not(mcracl:isCurrentUserGuestUser())">
                 <input name="owner" type="hidden" value="createdby:{$CurrentUser}" />
               </xsl:when>
             </xsl:choose>
@@ -90,13 +84,11 @@
               <i class="fas fa-search"></i>
             </button>
           </form>
-
         </nav>
       </div>
     </div>
-
-    <div id="digibib_feedback">
-      <a href="mailto:digibib@tu-braunschweig.de">Feedback</a>
+    <div id="pharmrxiv_feedback">
+      <a href="mailto:pharmrxiv@tu-braunschweig.de">Feedback</a>
     </div>
   </xsl:template>
 
@@ -113,10 +105,13 @@
           </ul>
         </div>
         <div class="col-6 col-sm-3">
-          <xsl:variable name="mcr_version" select="concat('MyCoRe ',mcrver:getCompleteVersion())" />
+          <xsl:variable name="version" select="concat('MyCoRe ', mcrversion:getCompleteVersion())" />
           <div id="powered_by">
-            <a id="mycore_logo" href="http://www.mycore.de">
-              <img src="{$WebApplicationBaseURL}mir-layout/images/mycore_logo_powered_120x30_blaue_schrift_frei.png" title="{$mcr_version}" alt="powered by MyCoRe" />
+            <a id="mycore_logo" href="https://www.mycore.de">
+              <img
+                src="{$WebApplicationBaseURL}mir-layout/images/mycore_logo_powered_120x30_blaue_schrift_frei.png"
+                title="{$version}"
+                alt="powered by MyCoRe" />
             </a>
           </div>
         </div>
@@ -126,31 +121,62 @@
 
   <xsl:template name="project.generate_single_menu_entry">
     <xsl:param name="menuID" />
-
-    <xsl:variable name="activeClass">
+    <xsl:variable name="menu-item" select="$loaded_navigation_xml/menu[@id=$menuID]/item" />
+    <xsl:variable name="active-class">
       <xsl:choose>
-        <xsl:when test="$loaded_navigation_xml/menu[@id=$menuID]/item[@href = $browserAddress ]">
-        <xsl:text>active</xsl:text>
+        <xsl:when test="$menu-item/@href = $browserAddress">
+          <xsl:text>active</xsl:text>
         </xsl:when>
         <xsl:otherwise>
           <xsl:text>not-active</xsl:text>
         </xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
-
-    <li class="nav-item {$activeClass}">
-
-      <a id="{$menuID}" href="{$WebApplicationBaseURL}{$loaded_navigation_xml/menu[@id=$menuID]/item/@href}" class="nav-link" >
-        <xsl:choose>
-          <xsl:when test="$loaded_navigation_xml/menu[@id=$menuID]/item/label[lang($CurrentLang)] != ''">
-            <xsl:value-of select="$loaded_navigation_xml/menu[@id=$menuID]/item/label[lang($CurrentLang)]" />
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:value-of select="$loaded_navigation_xml/menu[@id=$menuID]/item/label[lang($DefaultLang)]" />
-          </xsl:otherwise>
-        </xsl:choose>
+    <li class="nav-item {$active-class}">
+      <xsl:variable name="full-url">
+        <xsl:call-template name="resolve-full-url">
+          <xsl:with-param name="link" select="$menu-item/@href" />
+        </xsl:call-template>
+      </xsl:variable>
+      <a id="{$menuID}" href="{$full-url}" class="nav-link">
+        <xsl:apply-templates select="$menu-item" mode="linkText" />
       </a>
     </li>
+  </xsl:template>
+
+  <xsl:template name="resolve-full-url">
+    <xsl:param name="link" />
+    <xsl:param name="base-url" select="$WebApplicationBaseURL" />
+    <xsl:choose>
+      <xsl:when test="
+        starts-with($link,'http:')
+        or starts-with($link,'https:')
+        or starts-with($link,'mailto:')
+        or starts-with($link,'ftp:')
+      ">
+        <xsl:value-of select="$link" />
+      </xsl:when>
+      <xsl:when test="starts-with($link,'/')">
+        <xsl:choose>
+          <xsl:when test="substring($base-url, string-length($base-url), 1) = '/'">
+            <xsl:value-of select="concat(substring($base-url, 1, string-length($base-url) - 1), $link)" />
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="concat($base-url, $link)" />
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:choose>
+          <xsl:when test="substring($base-url, string-length($base-url), 1) = '/'">
+            <xsl:value-of select="concat($base-url, $link)" />
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="concat($base-url, '/', $link)" />
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
 
   <xsl:template name="mir.powered_by">

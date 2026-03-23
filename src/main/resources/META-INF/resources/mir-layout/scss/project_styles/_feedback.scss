@@ -6,7 +6,7 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
-  #digibib_feedback {
+  #pharmrxiv_feedback {
     cursor: pointer;
     position: fixed;
     bottom: 20%;
@@ -26,13 +26,13 @@
     width: 80px;
     text-align: center;
   }
-  #digibib_feedback:hover {
+  #pharmrxiv_feedback:hover {
     background: $primary;
     border-bottom: solid 1px $primary;
     border-left: solid 0px $primary;
     border-right: solid 1px $primary;
   }
-  #digibib_feedback a {
+  #pharmrxiv_feedback a {
     color: #fff;
   }
 

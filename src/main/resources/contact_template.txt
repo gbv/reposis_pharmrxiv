@@ -1,0 +1,7 @@
+Angaben zum Absender:
+Name:      {{name}}
+E-Mail:    {{mail}}
+
+Nachricht
+---
+{{message}}
